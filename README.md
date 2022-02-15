@@ -7,7 +7,11 @@
  - [X] **CCL - [Reference Books](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/tree/main/Reference%20Books)**
 
 ---
- 
+
+## Assignments
+ - CCL [Assignment - 1](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Assignments/AMEY_B-50_CCL_ASSIGNMENT-1.pdf)
+ - CCL [Assignment - 2](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Assignments/AMEY_B-50_CCL_ASSIGNMENT-2.pdf)
+
 ## Experiments 
  >Cloud Computing Lab
  
