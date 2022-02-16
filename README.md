@@ -23,4 +23,3 @@
 
  ## Quizzes
  - Quiz 1 - [Introduction to Cloud Computing](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Quizzes/Quiz%201_Introduction%20to%20Cloud%20Computing.pdf)
-
