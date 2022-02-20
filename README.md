@@ -33,6 +33,13 @@
  - CCL [Experiment - 5](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Experiments/AMEY_B-50_CCL_EXPERIMENT-5.pdf) | [Website Deployment using AWS S3](https://youtu.be/CnM07Vg7pW8)
 
 
+## Project
+
+ >**PIZZA ORDERING CHATBOT USING AMAZON LEX**
+ 
+ - **[YouTube Video](https://youtu.be/FHbXSo95S7A)**
+
+
  ## Quizzes
  
  - Quiz 1 - [Introduction to Cloud Computing](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Quizzes/Quiz%201_Introduction%20to%20Cloud%20Computing.pdf)
