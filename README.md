@@ -31,6 +31,10 @@
  - CCL [Experiment - 4](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Experiments/AMEY_B-50_CCL_EXPERIMENT-4.pdf) | [AWS S3 Service](https://youtu.be/CnM07Vg7pW8)
  
  - CCL [Experiment - 5](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Experiments/AMEY_B-50_CCL_EXPERIMENT-5.pdf) | [Website Deployment using AWS S3](https://youtu.be/CnM07Vg7pW8)
+ 
+ - CCL [Experiment - 6](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Experiments/AMEY_B-50_CCL_EXPERIMENT-6.pdf) | [Website hosting on WordPress using Amazon Lightsail](https://youtu.be/Ey8Tm4cC6yo)
+ 
+ - CCL [Experiment - 7]() | []()
 
 
 ## Project
