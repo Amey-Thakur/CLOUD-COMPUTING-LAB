@@ -35,6 +35,8 @@
  - CCL [Experiment - 6](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Experiments/AMEY_B-50_CCL_EXPERIMENT-6.pdf) | [Website hosting on WordPress using Amazon Lightsail](https://youtu.be/Ey8Tm4cC6yo)
  
  - CCL [Experiment - 7](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Experiments/AMEY_B-50_CCL_EXPERIMENT-7.pdf) | [Creating IAM user and user groups](https://youtu.be/dnmuv0PC7W8)
+ 
+ - CCL [Experiment - 8](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Experiments/AMEY_B-50_CCL_EXPERIMENT-8.pdf)
 
 
 ## Project
