@@ -44,7 +44,13 @@
  >**PIZZA ORDERING CHATBOT USING AMAZON LEX**
  
  - **[YouTube Video](https://youtu.be/FHbXSo95S7A)**
-
+ 
+ - **[Project Demo](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Mini%20Project/PIZZA%20ORDERING%20CHATBOT%20USING%20AMAZON%20LEX.mp4)**
+ 
+ - **[Project Report](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf)**
+ 
+ - **[Project Presentation](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)** 
+ 
 
  ## Quizzes
  
