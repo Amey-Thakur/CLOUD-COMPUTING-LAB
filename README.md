@@ -57,4 +57,3 @@
  - Quiz 1 - [Introduction to Cloud Computing](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Quizzes/Quiz%201_Introduction%20to%20Cloud%20Computing.pdf)
  
  - Quiz 2 - [Practice Quiz](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Quizzes/Quiz%202_FH%202022_BE%20Div%20B_Reshma%20Koli.pdf)
-
