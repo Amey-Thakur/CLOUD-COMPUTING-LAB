@@ -45,7 +45,7 @@
  
  - **[YouTube Video](https://youtu.be/FHbXSo95S7A)**
  
- - **[Project Demo](https://youtu.be/6iLgN_1e4DU)**
+ - **[Project Demo](https://youtu.be/6iLgN_1e4DU) - [DOI](http://dx.doi.org/10.13140/RG.2.2.14153.42088)**
  
  - **[Project Report](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf)**
  
