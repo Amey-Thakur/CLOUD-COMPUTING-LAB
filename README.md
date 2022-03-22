@@ -45,11 +45,11 @@
  
  - **[YouTube Video](https://youtu.be/FHbXSo95S7A)**
  
- - **[Project Demo](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Mini%20Project/PIZZA%20ORDERING%20CHATBOT%20USING%20AMAZON%20LEX.mp4)**
+ - **[Project Demo](https://youtu.be/6iLgN_1e4DU) - [DOI](http://dx.doi.org/10.13140/RG.2.2.14153.42088)**
  
  - **[Project Report](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf)**
  
- - **[Project Presentation](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf) - [DOI](http://dx.doi.org/10.13140/RG.2.2.22024.29447)**
+ - **[Project Presentation](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf) - [DOI](http://dx.doi.org/10.13140/RG.2.2.19606.01607)**
  
 
  ## Quizzes
@@ -57,3 +57,4 @@
  - Quiz 1 - [Introduction to Cloud Computing](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Quizzes/Quiz%201_Introduction%20to%20Cloud%20Computing.pdf)
  
  - Quiz 2 - [Practice Quiz](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Quizzes/Quiz%202_FH%202022_BE%20Div%20B_Reshma%20Koli.pdf)
+
