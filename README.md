@@ -58,3 +58,8 @@
  
  - Quiz 2 - [Practice Quiz](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Quizzes/Quiz%202_FH%202022_BE%20Div%20B_Reshma%20Koli.pdf)
 
+
+ ## Exit Survey
+ 
+  - CCL [Laboratory Exit Survey](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Laboratory%20Exit%20Survey_BE_COMP_Div%20B_FH%202022.pdf)
+
