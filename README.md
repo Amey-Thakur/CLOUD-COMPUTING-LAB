@@ -61,7 +61,7 @@
 
 ## Exit Survey
  
-  - CCL [Laboratory Exit Survey](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Exit%20Survey/CCL%20Laboratory%20Exit%20Survey_BE_COMP_Div%20B_FH%202022.pdf)
+  - CCL Laboratory [Exit Survey](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Exit%20Survey/CCL%20Laboratory%20Exit%20Survey_BE_COMP_Div%20B_FH%202022.pdf)
 
 
 ## Submission Report
