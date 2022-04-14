@@ -52,14 +52,19 @@
  - **[Project Presentation](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf) - [DOI](http://dx.doi.org/10.13140/RG.2.2.19606.01607)**
  
 
- ## Quizzes
+## Quizzes
  
  - Quiz 1 - [Introduction to Cloud Computing](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Quizzes/Quiz%201_Introduction%20to%20Cloud%20Computing.pdf)
  
  - Quiz 2 - [Practice Quiz](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Quizzes/Quiz%202_FH%202022_BE%20Div%20B_Reshma%20Koli.pdf)
 
 
- ## Exit Survey
+## Exit Survey
  
-  - CCL [Laboratory Exit Survey](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Laboratory%20Exit%20Survey_BE_COMP_Div%20B_FH%202022.pdf)
+  - CCL [Laboratory Exit Survey](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Exit%20Survey/CCL%20Laboratory%20Exit%20Survey_BE_COMP_Div%20B_FH%202022.pdf)
+
+
+## Submission Report
+
+ - [CCL Submission Report](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Submission%20Report/AMEY_B-50_CCL_SUBMISSION_REPORT.pdf)
 
