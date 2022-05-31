@@ -67,4 +67,6 @@
 ## Submission Report
 
  - CCL [Submission Report](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Submission%20Report/AMEY_B-50_CCL_SUBMISSION_REPORT.pdf)
+ 
+ - Semester 8 [Submission Report](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/Submission%20Report/Amey_B-50_Submission_Report.pdf)
 
