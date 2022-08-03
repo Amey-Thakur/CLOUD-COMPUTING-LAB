@@ -51,6 +51,8 @@
  
  - **[Project Presentation](https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB/blob/main/CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf) - [DOI](http://dx.doi.org/10.13140/RG.2.2.19606.01607)**
  
+ - **[Presentation](https://youtu.be/cI8Wv2aW37I)**
+ 
 
 ## Quizzes
  
