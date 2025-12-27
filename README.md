@@ -114,6 +114,7 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
   [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-8-yellowgreen.svg)](CCL%20Experiments/)
   [![Platform](https://img.shields.io/badge/Platform-AWS-orange.svg)](CCL%20Experiments/)
   [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](CCL%20Experiments/)
+  [![Live Demo CCL Portfolio](https://img.shields.io/badge/Live_Demo-CCL_Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/CCL/)
 
 </div>
 
@@ -128,6 +129,19 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 | 6 | Deploy WordPress app using Lightsail service in AWS (SaaS) | February 23, 2022 | 10/10 | [🎬](https://youtu.be/Ey8Tm4cC6yo) | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-6.pdf) |
 | 7 | Understand Security of Web Server and demonstration of IAM using AWS | February 23, 2022 | 10/10 | [🎬](https://youtu.be/dnmuv0PC7W8) | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-7.pdf) |
 | 8 | Understanding implementation and applications of Fog Computing | March 10, 2022 | 10/10 | — | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-8.pdf) |
+
+### Program Details
+
+<details>
+<summary><b>Experiment-5: Static Web Page (1 Program)</b></summary>
+<br>
+
+| Program | Category | Description | Code |
+|:---|:---|:---|:-:|
+| `index.html` | Web UI (Amey) | Responsive portfolio with GSAP animations | [View](CCL/Amey/index.html) |
+| `index.html` | Web UI (Mega) | Modern responsive student portfolio | [View](CCL/Mega/index.html) |
+
+</details>
 
 ### Laboratory Documentation
 
