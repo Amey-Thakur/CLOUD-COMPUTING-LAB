@@ -524,6 +524,117 @@
             opacity: 1;
             transform: translateX(-50%) translateY(0);
         }
+
+        /* Animated Gradient Card (WDL Style) */
+        .animated-gradient-card {
+            background: linear-gradient(-45deg, #ffffff, #f0f4ff, #e0e7ff, #f8fafc);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            border: 1px solid var(--accent-color) !important;
+        }
+
+        [data-theme="dark"] .animated-gradient-card {
+            background: linear-gradient(-45deg, #0f172a, #1e293b, #0f172a, #1a237e);
+            background-size: 400% 400%;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Video Card Styles */
+        .video-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            padding: 25px;
+            height: 100%;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .video-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+            box-shadow: var(--shadow-md);
+        }
+
+        .video-thumbnail {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: #000;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .video-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+
+        .video-card:hover .video-thumbnail img {
+            opacity: 0.6;
+        }
+
+        .play-overlay {
+            position: absolute;
+            font-size: 3rem;
+            color: white;
+            opacity: 0.7;
+            transition: all 0.3s;
+        }
+
+        .video-card:hover .play-overlay {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+
+        .btn-watch {
+            margin-top: auto;
+            background: #ff0000;
+            color: white !important;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+
+        .btn-watch:hover {
+            background: #cc0000;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3);
+        }
+
+        .mini-project-hero {
+            padding: 60px 40px;
+            text-align: center;
+            margin-top: 60px;
+            border-radius: 24px;
+        }
     </style>
 </head>
 
@@ -627,66 +738,180 @@
                 </div>
             </div>
 
+            <!-- Laboratory Demonstrations Title -->
+            <div class="section-title" style="margin-top: 60px;">
+                <h3>Laboratory Demonstrations</h3>
+            </div>
+
+            <!-- Video Demonstrations Grid -->
+            <div class="row g-4 justify-content-center mb-5">
+                <!-- Exp 3 -->
+                <div class="col-md-6">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/y-oACtu8djc/maxresdefault.jpg" alt="AWS EC2 Demo">
+                            <i class="fas fa-play-circle play-overlay"></i>
+                        </div>
+                        <h5>AWS EC2 (IaaS)</h5>
+                        <p>Practical implementation of Infrastructure as a Service using Amazon EC2 instances for
+                            scalable
+                            computing power.</p>
+                        <a href="https://youtu.be/y-oACtu8djc" target="_blank" class="btn-watch">
+                            <i class="fab fa-youtube"></i> Watch Demo
+                        </a>
+                    </div>
+                </div>
+                <!-- Exp 4 & 5 -->
+                <div class="col-md-6">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/CnM07Vg7pW8/maxresdefault.jpg" alt="AWS S3 Demo">
+                            <i class="fas fa-play-circle play-overlay"></i>
+                        </div>
+                        <h5>AWS S3 & PaaS Hosting</h5>
+                        <p>Showcasing Storage as a Service and Static Website hosting on Amazon S3 with global
+                            availability.
+                        </p>
+                        <a href="https://youtu.be/CnM07Vg7pW8" target="_blank" class="btn-watch">
+                            <i class="fab fa-youtube"></i> Watch Demo
+                        </a>
+                    </div>
+                </div>
+                <!-- Exp 6 -->
+                <div class="col-md-6">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/Ey8Tm4cC6yo/maxresdefault.jpg"
+                                alt="AWS Lightsail Demo">
+                            <i class="fas fa-play-circle play-overlay"></i>
+                        </div>
+                        <h5>AWS Lightsail (SaaS)</h5>
+                        <p>Deploying a managed WordPress application using AWS Lightsail for simplified Software as a
+                            Service
+                            delivery.</p>
+                        <a href="https://youtu.be/Ey8Tm4cC6yo" target="_blank" class="btn-watch">
+                            <i class="fab fa-youtube"></i> Watch Demo
+                        </a>
+                    </div>
+                </div>
+                <!-- Exp 7 -->
+                <div class="col-md-6">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/dnmuv0PC7W8/maxresdefault.jpg" alt="AWS IAM Demo">
+                            <i class="fas fa-play-circle play-overlay"></i>
+                        </div>
+                        <h5>AWS IAM & Security</h5>
+                        <p>Securing cloud resources through Identity and Access Management (IAM) and robust policy
+                            configurations.</p>
+                        <a href="https://youtu.be/dnmuv0PC7W8" target="_blank" class="btn-watch">
+                            <i class="fab fa-youtube"></i> Watch Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mini Project Title -->
+            <div class="section-title" style="margin-top: 60px;">
+                <h3>Mini Project</h3>
+            </div>
+
+            <!-- Mini Project Hero Section -->
+            <div class="card-custom mini-project-hero animated-gradient-card mb-5">
+                <div class="icon-wrapper mx-auto mb-4" style="width: 80px; height: 80px; font-size: 2.5rem;">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h2 class="fw-bold mb-3">Pizza Ordering Chatbot</h2>
+                <p class="text-secondary mx-auto mb-4" style="max-width: 800px; font-size: 1.1rem;">
+                    An intelligent conversational agent built with <b>Amazon Lex</b> and <b>AWS Lambda</b>.
+                    Features natural language understanding, automated order processing, and serverless backend
+                    integration.
+                    Published in the International Journal for Research in Applied Science and Engineering Technology
+                    (IJRASET).
+                </p>
+
+                <div class="d-flex gap-2 justify-content-center flex-wrap mb-4">
+                    <span class="badge-pill"><i class="fas fa-server me-2"></i>AWS Lex</span>
+                    <span class="badge-pill"><i class="fas fa-bolt me-2"></i>AWS Lambda</span>
+                    <span class="badge-pill"><i class="fas fa-microchip me-2"></i>Serverless</span>
+                    <span class="badge-pill"><i class="fas fa-journal-whills me-2"></i>Published Research</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="https://youtu.be/6iLgN_1e4DU" target="_blank" class="btn-watch"
+                        style="padding: 12px 30px; border-radius: 50px;">
+                        <i class="fab fa-youtube me-2"></i>Watch Project Demo
+                    </a>
+                    <a href="../CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf"
+                        target="_blank" class="btn btn-primary-custom"
+                        style="padding: 12px 30px; border-radius: 50px; background: var(--bg-color); color: var(--text-primary); border: 1px solid var(--border-color); font-weight: 600;">
+                        <i class="fas fa-file-pdf me-2"></i>View Full Report
+                    </a>
+                    <a href="https://doi.org/10.22214/ijraset.2022.40861" target="_blank" class="btn btn-primary-custom"
+                        style="padding: 12px 30px; border-radius: 50px; background: var(--card-bg); color: var(--accent-color); border: 1px solid var(--accent-color); font-weight: 600;">
+                        <i class="fas fa-external-link-alt me-2"></i>Research Paper
+                    </a>
+                </div>
+            </div>
+
         </div>
 
-    </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <p>2022 &copy; All Rights Reserved | Designed and Developed by <a href="https://github.com/Amey-Thakur">Amey
+                    Thakur</a> & <a href="https://github.com/msatmod">Mega Satish</a></p>
+        </footer>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>2022 &copy; All Rights Reserved | Designed and Developed by <a href="https://github.com/Amey-Thakur">Amey
-                Thakur</a> & <a href="https://github.com/msatmod">Mega Satish</a></p>
-    </footer>
+        <!-- Back to Top Button -->
+        <button type="button" class="btn" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
 
-    <!-- Back to Top Button -->
-    <button type="button" class="btn" id="btn-back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+        <script>
+            const toggleBtn = document.getElementById('theme-toggle');
+            const themeIcon = toggleBtn.querySelector('i');
+            const htmlElement = document.documentElement;
 
-    <script>
-        const toggleBtn = document.getElementById('theme-toggle');
-        const themeIcon = toggleBtn.querySelector('i');
-        const htmlElement = document.documentElement;
+            // Back to Top Logic
+            const backToTopBtn = document.getElementById("btn-back-to-top");
+            window.onscroll = function () { scrollFunction(); };
 
-        // Back to Top Logic
-        const backToTopBtn = document.getElementById("btn-back-to-top");
-        window.onscroll = function () { scrollFunction(); };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                backToTopBtn.style.display = "flex";
-            } else {
-                backToTopBtn.style.display = "none";
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    backToTopBtn.style.display = "flex";
+                } else {
+                    backToTopBtn.style.display = "none";
+                }
             }
-        }
 
-        backToTopBtn.addEventListener("click", () => {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        });
+            backToTopBtn.addEventListener("click", () => {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            });
 
-        // Theme Toggle Logic
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        htmlElement.setAttribute('data-theme', savedTheme);
-        updateIcon(savedTheme);
+            // Theme Toggle Logic
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            htmlElement.setAttribute('data-theme', savedTheme);
+            updateIcon(savedTheme);
 
-        toggleBtn.addEventListener('click', () => {
-            const currentTheme = htmlElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            htmlElement.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-            updateIcon(newTheme);
-        });
+            toggleBtn.addEventListener('click', () => {
+                const currentTheme = htmlElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                htmlElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                updateIcon(newTheme);
+            });
 
-        function updateIcon(theme) {
-            if (theme === 'dark') {
-                themeIcon.classList.remove('fa-moon');
-                themeIcon.classList.add('fa-sun');
-            } else {
-                themeIcon.classList.remove('fa-sun');
-                themeIcon.classList.add('fa-moon');
+            function updateIcon(theme) {
+                if (theme === 'dark') {
+                    themeIcon.classList.remove('fa-moon');
+                    themeIcon.classList.add('fa-sun');
+                } else {
+                    themeIcon.classList.remove('fa-sun');
+                    themeIcon.classList.add('fa-moon');
+                }
             }
-        }
-    </script>
+        </script>
 </body>
 
 </html>
