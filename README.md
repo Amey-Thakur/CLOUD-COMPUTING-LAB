@@ -129,6 +129,12 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 | 7 | Understand Security of Web Server and demonstration of IAM using AWS | February 23, 2022 | 10/10 | [🎬](https://youtu.be/dnmuv0PC7W8) | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-7.pdf) |
 | 8 | Understanding implementation and applications of Fog Computing | March 10, 2022 | 10/10 | — | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-8.pdf) |
 
+### Laboratory Documentation
+
+| # | Resource | Description |
+|:-:|:---|:---|
+| 1 | [Lab README](CCL%20Experiments/) | Detailed navigation guide with program descriptions |
+
 ---
 
 <!-- =========================================================================================
