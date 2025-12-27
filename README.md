@@ -138,47 +138,34 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
 <div align="center">
 
-### 🤖 Pizza Ordering Chatbot Using Amazon Lex
+  ### [🤖 Pizza Ordering Chatbot Using Amazon Lex](https://github.com/Amey-Thakur/PIZZA-ORDERING-CHATBOT)
 
-**An AI-powered conversational chatbot for pizza ordering built using AWS Lex, Lambda, and other serverless services.**
+  **An AI-powered conversational chatbot for pizza ordering built using AWS Lex, Lambda, and other serverless services.**
 
-[![Presentation](https://img.shields.io/badge/Presentation-orange?style=flat&logo=googleslides&logoColor=white)](CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)
-[![Source Code](https://img.shields.io/badge/Source%20Code-blue?style=flat&logo=github&logoColor=white)](https://github.com/Amey-Thakur/PIZZA-ORDERING-CHATBOT)
-[![Project Repository](https://img.shields.io/badge/Project%20Repository-orange?style=flat&logo=github&logoColor=white)](https://github.com/Amey-Thakur/PIZZA-ORDERING-CHATBOT)
+  [![Presentation](https://img.shields.io/badge/📊-Presentation-orange.svg)](CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)
+  [![Code](https://img.shields.io/badge/💻-Source%20Code-blue.svg)](https://github.com/Amey-Thakur/PIZZA-ORDERING-CHATBOT)
+  [![Repository](https://img.shields.io/badge/🤖-Project%20Repository-orange.svg)](https://github.com/Amey-Thakur/PIZZA-ORDERING-CHATBOT)
 
-[![Pizza Ordering Chatbot Using Amazon Lex](https://img.youtube.com/vi/FHbXSo95S7A/maxresdefault.jpg)](https://youtu.be/FHbXSo95S7A)
+  <br>
 
-### 👥 Authors
+  <a href="https://youtu.be/FHbXSo95S7A">
+    <img src="https://img.youtube.com/vi/FHbXSo95S7A/maxresdefault.jpg" width="60%" alt="Pizza Ordering Chatbot Demo">
+  </a>
+  <br>
 
-<table>
-<tr>
-<td align="center">
-<a href="https://github.com/Amey-Thakur">
-<img src="https://github.com/Amey-Thakur.png" alt="Amey Thakur" width="150" height="150"/><br/>
-<b>Amey Thakur</b>
-</a>
-</td>
-<td align="center">
-<a href="https://github.com/msatmod">
-<img src="CCL%20Mini%20Project/Mega/Mega.png" alt="Mega Satish" width="150" height="150"/><br/>
-<b>Mega Satish</b>
-</a>
-</td>
-<td align="center">
-<a href="https://github.com/saakshii12">
-<img src="https://github.com/saakshii12.png" alt="Saakshi Deokar" width="150" height="150"/><br/>
-<b>Saakshi Deokar</b>
-</a>
-</td>
-</tr>
-</table>
+</div>
+<div align="center">
 
+  <!-- Authors Table -->
+  ### 👥 Authors
+| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="CCL%20Mini%20Project/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) |
+| :---: | :---: |
 </div>
 
 > [!IMPORTANT]
-> 💝 **Special Acknowledgement**
->
-> *Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://github.com/saakshii12) for their meaningful contributions, guidance, and support that helped shape this work.*
+> ### 🤝🏻 Special Acknowledgement
+> *Special thanks to [Mega Satish](https://github.com/msatmod) for her meaningful contributions, guidance, and support that helped shape this work.*
+
 
 ### Project Overview
 
@@ -191,7 +178,9 @@ A Pizza Ordering Chatbot developed as a mini project for the Cloud Computing Lab
 > - [viXra Preprint](https://vixra.org/pdf/2203.0172v1.pdf)
 > - [IJRASET DOI](https://doi.org/10.22214/ijraset.2022.40861)
 
-### Resources
+
+  <!-- Resources Table -->
+  ### Resources
 
 | # | Resource | Description | Marks | Link |
 |:-:|:---|:---|:---:|:---|
