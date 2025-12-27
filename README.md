@@ -83,10 +83,14 @@ This collection includes **comprehensive reference materials** covering all majo
 
 ### Assignments
 
-| # | Assignment | Description |
-|:-:|:---|:---|
-| 1 | [Assignment 1](Assignments/AMEY_B-50_CCL_ASSIGNMENT-1.pdf) | Cloud Computing Assignment 1 |
-| 2 | [Assignment 2](Assignments/AMEY_B-50_CCL_ASSIGNMENT-2.pdf) | Cloud Computing Assignment 2 |
+Academic assignments for comprehensive learning and practice:
+
+| # | Assignment | Description | Date | Marks |
+|:-:|:---|:---|:---:|:---:|
+| 1 | [Assignment 1](Assignments/AMEY_B-50_CCL_ASSIGNMENT-1.pdf) | SOA, Google App Engine, Cloud Service Models, Hypervisor, Virtualization, OpenStack | February 15, 2022 | 10/10 |
+| 2 | [Assignment 2](Assignments/AMEY_B-50_CCL_ASSIGNMENT-2.pdf) | Cloud Security, IAM, IaaS, PaaS, SaaS Service Models | February 15, 2022 | 10/10 |
+
+**Topics Covered:** Service-Oriented Architecture (SOA) · Google App Engine · Cloud Service Models · Hypervisor Architecture · Virtualization · OpenStack · Cloud Security · Identity Access Management (IAM) · Infrastructure as a Service (IaaS) · Platform as a Service (PaaS) · Software as a Service (SaaS)
 
 ---
 
