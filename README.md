@@ -75,7 +75,7 @@ This collection includes **comprehensive reference materials** covering all majo
 | 3 | [CCS Easy Solution](Reference%20Books/CCS%20Easy%20solution.pdf) | Comprehensive solved questions |
 | 4 | [Characteristics PPT](Reference%20Books/Characteristics.pptx) | Cloud characteristics and models |
 | 5 | [Cloud Computing PDF](Reference%20Books/Cloud%20Computing.pdf) | Core cloud computing concepts |
-| 6 | [Cloud Computing PPT](Reference%20Books/Cloud%20Computing.pptx) | Detailed cloud computing slides |
+| 6 | [Cloud Computing](Reference%20Books/Cloud%20Computing.pdf) | Detailed cloud computing slides |
 | 7 | [CCL Notes](Reference%20Books/ccl.pdf) | Comprehensive subject notes |
 | 8 | [NPTEL Lecture Material](Reference%20Books/NPTEL%20Lecture%20Material/) | NPTEL video lecture materials |
 
