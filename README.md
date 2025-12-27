@@ -123,11 +123,11 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 | 2A | Implement Software Virtualization using Hypervisors (VMware) | January 17, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-2A.pdf) | — |
 | 2B | Implement Virtualization using VirtualBox | January 24, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-2B.pdf) | — |
 | 3 | Demonstrate and implement IaaS service using AWS EC2 | January 31, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-3.pdf) | [🎬](https://youtu.be/y-oACtu8djc) |
-| 4 | Demonstrate and implement AWS S3 storage service | February 07, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-4.pdf) | [🎬](https://youtu.be/CnM07Vg7pW8) |
-| 5 | Deploy static website using AWS S3 | February 14, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-5.pdf) | [🎬](https://youtu.be/CnM07Vg7pW8) |
-| 6 | Host WordPress website on Amazon Lightsail | February 21, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-6.pdf) | [🎬](https://youtu.be/Ey8Tm4cC6yo) |
-| 7 | Create IAM users and user groups in AWS | February 28, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-7.pdf) | [🎬](https://youtu.be/dnmuv0PC7W8) |
-| 8 | Study and implement Fog Computing concepts | March 07, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-8.pdf) | — |
+| 4 | Demonstrate and implement AWS S3 storage service | — | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-4.pdf) | [🎬](https://youtu.be/CnM07Vg7pW8) |
+| 5 | Deploy static website using AWS S3 | — | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-5.pdf) | [🎬](https://youtu.be/CnM07Vg7pW8) |
+| 6 | Host WordPress website on Amazon Lightsail | — | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-6.pdf) | [🎬](https://youtu.be/Ey8Tm4cC6yo) |
+| 7 | Create IAM users and user groups in AWS | — | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-7.pdf) | [🎬](https://youtu.be/dnmuv0PC7W8) |
+| 8 | Study and implement Fog Computing concepts | — | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-8.pdf) | — |
 
 ---
 
