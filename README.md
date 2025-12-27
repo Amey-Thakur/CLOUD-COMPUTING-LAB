@@ -143,8 +143,7 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
   **An AI-powered conversational chatbot for pizza ordering built using AWS Lex, Lambda, and other serverless services.**
 
   [![Presentation](https://img.shields.io/badge/📊-Presentation-orange.svg)](CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)
-  [![Code](https://img.shields.io/badge/💻-Source%20Code-blue.svg)](https://github.com/Amey-Thakur/PIZZA-ORDERING-CHATBOT)
-  [![Repository](https://img.shields.io/badge/🤖-Project%20Repository-orange.svg)](https://github.com/Amey-Thakur/PIZZA-ORDERING-CHATBOT)
+  [![YouTube Demo](https://img.shields.io/badge/🎬-YouTube%20Demo-red.svg)](https://youtu.be/FHbXSo95S7A)
 
   <br>
 
