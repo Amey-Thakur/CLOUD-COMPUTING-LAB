@@ -23,23 +23,23 @@
  
  >Cloud Computing Lab
  
- - CCL [Experiment - 1](Experiments/AMEY_B-50_CCL_EXPERIMENT-1.pdf)
+ - CCL [Experiment - 1](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-1.pdf)
  
- - CCL [Experiment - 2A](Experiments/AMEY_B-50_CCL_EXPERIMENT-2A.pdf)
+ - CCL [Experiment - 2A](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-2A.pdf)
  
- - CCL [Experiment - 2B](Experiments/AMEY_B-50_CCL_EXPERIMENT-2B.pdf)
+ - CCL [Experiment - 2B](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-2B.pdf)
  
- - CCL [Experiment - 3](Experiments/AMEY_B-50_CCL_EXPERIMENT-3.pdf) | [AWS EC2 Instance](https://youtu.be/y-oACtu8djc)
+ - CCL [Experiment - 3](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-3.pdf) | [AWS EC2 Instance](https://youtu.be/y-oACtu8djc)
  
- - CCL [Experiment - 4](Experiments/AMEY_B-50_CCL_EXPERIMENT-4.pdf) | [AWS S3 Service](https://youtu.be/CnM07Vg7pW8)
+ - CCL [Experiment - 4](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-4.pdf) | [AWS S3 Service](https://youtu.be/CnM07Vg7pW8)
  
- - CCL [Experiment - 5](Experiments/AMEY_B-50_CCL_EXPERIMENT-5.pdf) | [Website Deployment using AWS S3](https://youtu.be/CnM07Vg7pW8)
+ - CCL [Experiment - 5](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-5.pdf) | [Website Deployment using AWS S3](https://youtu.be/CnM07Vg7pW8)
  
- - CCL [Experiment - 6](Experiments/AMEY_B-50_CCL_EXPERIMENT-6.pdf) | [Website hosting on WordPress using Amazon Lightsail](https://youtu.be/Ey8Tm4cC6yo)
+ - CCL [Experiment - 6](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-6.pdf) | [Website hosting on WordPress using Amazon Lightsail](https://youtu.be/Ey8Tm4cC6yo)
  
- - CCL [Experiment - 7](Experiments/AMEY_B-50_CCL_EXPERIMENT-7.pdf) | [Creating IAM user and user groups](https://youtu.be/dnmuv0PC7W8)
+ - CCL [Experiment - 7](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-7.pdf) | [Creating IAM user and user groups](https://youtu.be/dnmuv0PC7W8)
  
- - CCL [Experiment - 8](Experiments/AMEY_B-50_CCL_EXPERIMENT-8.pdf)
+ - CCL [Experiment - 8](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-8.pdf)
 
 
 ## Project
@@ -64,9 +64,7 @@
  - Quiz 2 - [Practice Quiz](Quizzes/Quiz%202_FH%202022_BE%20Div%20B_Reshma%20Koli.pdf)
 
 
-## Exit Survey
- 
-  - CCL Laboratory [Exit Survey](Exit%20Survey/CCL%20Laboratory%20Exit%20Survey_BE_COMP_Div%20B_FH%202022.pdf)
+
 
 
 ## Submission Report
