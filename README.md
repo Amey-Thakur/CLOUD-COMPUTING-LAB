@@ -171,7 +171,6 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 > ### 🤝🏻 Special Acknowledgement
 > *Special thanks to **[Mega Satish](https://github.com/msatmod)** for her meaningful contributions, guidance, and support that helped shape this work.*
 
-
 ### Project Overview
 
 A Pizza Ordering Chatbot developed as a mini project for the Cloud Computing Lab (CCL). The application enables users to order pizza through a conversational interface powered by **Amazon Lex**. It leverages **AWS Lambda** for backend logic and **Amazon CloudWatch** for monitoring. This project showcases the practical application of serverless computing and natural language processing to build an interactive and intelligent ordering system.
@@ -181,7 +180,6 @@ A Pizza Ordering Chatbot developed as a mini project for the Cloud Computing Lab
 >
 > - [Preprint @viXra](https://vixra.org/pdf/2203.0172v1.pdf)
 > - [Published Paper @IJRASET](https://doi.org/10.22214/ijraset.2022.40861)
-
 
   <!-- Resources Table -->
   ### Resources
