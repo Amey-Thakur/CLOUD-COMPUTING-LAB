@@ -96,12 +96,12 @@ Academic assignments for comprehensive learning and practice:
 
 ### Quizzes
 
-CCL-specific quizzes conducted during the course:
+Cloud Computing specific quizzes conducted during the course:
 
-| # | Quiz | Topics |
-|:-:|:---|:---|
-| 1 | [Quiz 1](Quizzes/Quiz%201_Introduction%20to%20Cloud%20Computing.pdf) | Introduction to Cloud Computing |
-| 2 | [Quiz 2](Quizzes/Quiz%202_FH%202022_BE%20Div%20B_Reshma%20Koli.pdf) | Practice Quiz |
+| # | Quiz | Topics | Date | Marks |
+|:-:|:---|:---|:---:|:---:|
+| 1 | [Quiz 1](Quizzes/Quiz%201_Introduction%20to%20Cloud%20Computing.pdf) | Introduction to Cloud Computing | January 27, 2022 | 10/10 |
+| 2 | [Quiz 2](Quizzes/Quiz%202_FH%202022_BE%20Div%20B_Reshma%20Koli.pdf) | Practice Quiz | February 17, 2022 | 20/20 |
 
 ---
 
