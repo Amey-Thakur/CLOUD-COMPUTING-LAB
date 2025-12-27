@@ -133,7 +133,7 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [Lab README](CCL%20Experiments/) | Detailed navigation guide with program descriptions |
+| 1 | [Lab README](CCL%20Experiments/README.md) | Detailed navigation guide with program descriptions |
 
 ---
 
