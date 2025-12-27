@@ -34,7 +34,7 @@
 
     <!-- Favicon -->
     <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
     <!-- Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap"
@@ -434,6 +434,51 @@
             color: var(--badge-text);
             border-color: var(--badge-bg);
         }
+
+        /* Info Button & Clickable Badges */
+        .info-btn {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-sm);
+            text-decoration: none;
+            z-index: 10;
+        }
+
+        .info-btn:hover {
+            transform: scale(1.1);
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
+        .clickable-badge {
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .clickable-badge:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+            background: var(--accent-color) !important;
+            color: #fff !important;
+            border-color: var(--accent-color) !important;
+        }
     </style>
 </head>
 
@@ -442,6 +487,10 @@
 
         <!-- Hero Section -->
         <div class="hero">
+            <a href="../" class="info-btn" title="Course Details">
+                <i class="fas fa-info"></i>
+            </a>
+
             <button class="theme-switch" id="theme-toggle" title="Switch Theme">
                 <i class="fas fa-moon"></i>
             </button>
@@ -452,16 +501,14 @@
 
             <div class="info-badges">
                 <div class="d-flex gap-2 justify-content-center w-100 flex-wrap mb-2">
-                    <a href="https://github.com/Amey-Thakur" class="badge-pill"
-                        style="text-decoration:none; color:inherit;">
+                    <a href="https://github.com/Amey-Thakur" class="badge-pill clickable-badge" target="_blank">
                         <i class="fas fa-user-graduate me-2"></i>Amey Thakur
                     </a>
                     <span class="badge-pill">Roll No: 50</span>
                     <span class="badge-pill">Batch: B3</span>
                 </div>
                 <div class="d-flex gap-2 justify-content-center w-100 flex-wrap">
-                    <a href="https://github.com/msatmod" class="badge-pill"
-                        style="text-decoration:none; color:inherit;">
+                    <a href="https://github.com/msatmod" class="badge-pill clickable-badge" target="_blank">
                         <i class="fas fa-user-astronaut me-2"></i>Mega Satish
                     </a>
                     <span class="badge-pill">Roll No: 58</span>
