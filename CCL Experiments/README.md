@@ -16,7 +16,7 @@
 
   ---
 
-  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Experiment-1](#experiment-1-nist-model-of-cloud-computing) &nbsp;·&nbsp; [Experiment-2A](#experiment-2a-vmware-virtualization) &nbsp;·&nbsp; [Experiment-2B](#experiment-2b-virtualbox-virtualization) &nbsp;·&nbsp; [Experiment-3](#experiment-3-aws-ec2-iaas) &nbsp;·&nbsp; [Experiment-4](#experiment-4-aws-s3-storage) &nbsp;·&nbsp; [Experiment-5](#experiment-5-static-website-paas) &nbsp;·&nbsp; [Experiment-6](#experiment-6-wordpress-lightsail-saas) &nbsp;·&nbsp; [Experiment-7](#experiment-7-aws-iam-security) &nbsp;·&nbsp; [Experiment-8](#experiment-8-fog-computing)
+  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Experiment 1](#experiment-1-nist-model-of-cloud-computing) &nbsp;·&nbsp; [Experiment 2A](#experiment-2a-vmware-virtualization) &nbsp;·&nbsp; [Experiment 2B](#experiment-2b-virtualbox-virtualization) &nbsp;·&nbsp; [Experiment 3](#experiment-3-aws-ec2-iaas) &nbsp;·&nbsp; [Experiment 4](#experiment-4-aws-s3-storage) &nbsp;·&nbsp; [Experiment 5](#experiment-5-static-website-paas) &nbsp;·&nbsp; [Experiment 6](#experiment-6-wordpress-lightsail-saas) &nbsp;·&nbsp; [Experiment 7](#experiment-7-aws-iam-security) &nbsp;·&nbsp; [Experiment 8](#experiment-8-fog-computing)
 
 </div>
 
@@ -252,7 +252,7 @@ Understanding implementation and applications of Fog Computing.
   <!-- Footer Navigation -->
   [↑ Back to Top](#cloud-computing-lab)
 
-  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Experiment-1](#experiment-1-nist-model-of-cloud-computing) &nbsp;·&nbsp; [Experiment-2A](#experiment-2a-vmware-virtualization) &nbsp;·&nbsp; [Experiment-2B](#experiment-2b-virtualbox-virtualization) &nbsp;·&nbsp; [Experiment-3](#experiment-3-aws-ec2-iaas) &nbsp;·&nbsp; [Experiment-4](#experiment-4-aws-s3-storage) &nbsp;·&nbsp; [Experiment-5](#experiment-5-static-website-paas) &nbsp;·&nbsp; [Experiment-6](#experiment-6-wordpress-lightsail-saas) &nbsp;·&nbsp; [Experiment-7](#experiment-7-aws-iam-security) &nbsp;·&nbsp; [Experiment-8](#experiment-8-fog-computing)
+  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Experiment 1](#experiment-1-nist-model-of-cloud-computing) &nbsp;·&nbsp; [Experiment 2A](#experiment-2a-vmware-virtualization) &nbsp;·&nbsp; [Experiment 2B](#experiment-2b-virtualbox-virtualization) &nbsp;·&nbsp; [Experiment 3](#experiment-3-aws-ec2-iaas) &nbsp;·&nbsp; [Experiment 4](#experiment-4-aws-s3-storage) &nbsp;·&nbsp; [Experiment 5](#experiment-5-static-website-paas) &nbsp;·&nbsp; [Experiment 6](#experiment-6-wordpress-lightsail-saas) &nbsp;·&nbsp; [Experiment 7](#experiment-7-aws-iam-security) &nbsp;·&nbsp; [Experiment 8](#experiment-8-fog-computing)
 
   <br>
 
