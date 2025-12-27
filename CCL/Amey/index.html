@@ -70,11 +70,43 @@
         </div>
     </main>
 
+    <style>
+        .back-to-dashboard {
+            position: fixed !important;
+            bottom: 20px !important;
+            right: 20px !important;
+            background: #2563eb !important;
+            color: white !important;
+            padding: 10px 20px !important;
+            border-radius: 50px !important;
+            text-decoration: none !important;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+            font-size: 14px !important;
+            font-weight: bold !important;
+            z-index: 2147483647 !important;
+            transition: transform 0.2s !important;
+            display: flex !important;
+            align-items: center !important;
+            gap: 8px !important;
+        }
+
+        .back-to-dashboard:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+            color: white !important;
+        }
+    </style>
+    <a href="../index.html" class="back-to-dashboard">
+        <span>&larr;</span> Back to Portfolio
+    </a>
+
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
     <!-- MAIN -->
     <script src="assets/js/main.js"></script>
+    <script src="../assets/js/portfolio-enhancer.js"></script>
 
     <!-- ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
