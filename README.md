@@ -144,7 +144,7 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
 <div align="center">
 
-  ### [🤖 Pizza Ordering Chatbot Using Amazon Lex](https://github.com/Amey-Thakur/PIZZA-ORDERING-CHATBOT)
+  ### [🤖 Pizza Ordering Chatbot Using Amazon Lex](https://doi.org/10.22214/ijraset.2022.40861)
 
   **An AI-powered conversational chatbot for pizza ordering built using AWS Lex, Lambda, and other serverless services.**
 
