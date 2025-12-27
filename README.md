@@ -142,10 +142,9 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
 **An AI-powered conversational chatbot for pizza ordering built using AWS Lex, Lambda, and other serverless services.**
 
-[![Presentation](https://img.shields.io/badge/Presentation-blue?style=flat&logo=googledocs&logoColor=white)](CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)
-[![Report](https://img.shields.io/badge/Report-green?style=flat&logo=googledocs&logoColor=white)](CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf)
-[![viXra](https://img.shields.io/badge/viXra-Preprint-orange)](https://vixra.org/pdf/2203.0172v1.pdf)
-[![IJRASET](https://img.shields.io/badge/IJRASET-Published-red)](https://doi.org/10.22214/ijraset.2022.40861)
+[![Presentation](https://img.shields.io/badge/Presentation-orange?style=flat&logo=googleslides&logoColor=white)](CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)
+[![Source Code](https://img.shields.io/badge/Source%20Code-blue?style=flat&logo=github&logoColor=white)](https://github.com/Amey-Thakur/PIZZA-ORDERING-CHATBOT)
+[![Project Repository](https://img.shields.io/badge/Project%20Repository-orange?style=flat&logo=github&logoColor=white)](https://github.com/Amey-Thakur/PIZZA-ORDERING-CHATBOT)
 
 [![Pizza Ordering Chatbot Using Amazon Lex](https://img.youtube.com/vi/FHbXSo95S7A/maxresdefault.jpg)](https://youtu.be/FHbXSo95S7A)
 
