@@ -70,7 +70,7 @@ This collection includes **comprehensive reference materials** covering all majo
 
 | # | Resource | Focus Area |
 |:-:|:---|:---|
-| 1 | [CCL Presentation](Reference%20Books/CCL.pptx) | Cloud Computing Lab overview slides |
+| 1 | [CCL Presentation](Reference%20Books/CCL.pdf) | Cloud Computing Lab overview slides |
 | 2 | [CCL Oral Exam QB](Reference%20Books/CCL_Oral_exam_QAB.pdf) | Oral/Viva preparation questions |
 | 3 | [CCS Easy Solution](Reference%20Books/CCS%20Easy%20solution.pdf) | Comprehensive solved questions |
 | 4 | [Characteristics PPT](Reference%20Books/Characteristics.pptx) | Cloud characteristics and models |
