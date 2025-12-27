@@ -22,11 +22,20 @@
 
 ---
 
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-CCL%20Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/CCL/index.html)
+
+</div>
+
+> [!NOTE]
+> **CCL Portfolio**: This repository features a centralized portfolio dashboard designed to showcase all cloud computing experiments and student portfolios. Access the full interactive experience through the [CCL Portfolio Index](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/CCL/index.html).
+
 > [!TIP]
 > **Cloud Services & AWS**: When working with AWS services, always follow the principle of least privilege for IAM permissions. Ensure you clean up resources after experiments to avoid unexpected charges. Use the AWS Free Tier effectively for learning purposes.
 
 > [!WARNING]
-> **AWS Account Security**: Never commit AWS access keys or credentials to version control. Always use IAM roles and policies appropriately. Monitor your AWS billing dashboard regularly during experiments.
+> **Cloud Deployment**: Ensure your static websites are correctly configured for public access in S3 buckets. Always verify your bucket policies and CORS settings to prevent access issues. Since these experiments involve live cloud infrastructure, monitor your AWS usage regularly.
 
 ---
 
