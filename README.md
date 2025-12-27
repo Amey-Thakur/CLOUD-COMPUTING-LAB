@@ -138,9 +138,18 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
 <div align="center">
 
-### Pizza Ordering Chatbot Using Amazon Lex
+### 🤖 Pizza Ordering Chatbot Using Amazon Lex
 
 **An AI-powered conversational chatbot for pizza ordering built using AWS Lex, Lambda, and other serverless services.**
+
+[![Presentation](https://img.shields.io/badge/Presentation-blue?style=flat&logo=googledocs&logoColor=white)](CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)
+[![Report](https://img.shields.io/badge/Report-green?style=flat&logo=googledocs&logoColor=white)](CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf)
+[![viXra](https://img.shields.io/badge/viXra-Preprint-orange)](https://vixra.org/pdf/2203.0172v1.pdf)
+[![IJRASET](https://img.shields.io/badge/IJRASET-Published-red)](https://doi.org/10.22214/ijraset.2022.40861)
+
+[![Pizza Ordering Chatbot Using Amazon Lex](https://img.youtube.com/vi/FHbXSo95S7A/maxresdefault.jpg)](https://youtu.be/FHbXSo95S7A)
+
+### 👥 Authors
 
 <table>
 <tr>
@@ -156,32 +165,43 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 <b>Mega Satish</b>
 </a>
 </td>
+<td align="center">
+<a href="https://github.com/saakshii12">
+<img src="https://github.com/saakshii12.png" alt="Saakshi Deokar" width="150" height="150"/><br/>
+<b>Saakshi Deokar</b>
+</a>
+</td>
 </tr>
 </table>
-
-[![YouTube Demo](https://img.shields.io/badge/YouTube-Project_Demo-red?style=flat&logo=youtube)](https://youtu.be/6iLgN_1e4DU)
-[![DOI](https://img.shields.io/badge/DOI-10.13140%2FRG.2.2.14153.42088-blue)](http://dx.doi.org/10.13140/RG.2.2.14153.42088)
 
 </div>
 
 > [!IMPORTANT]
-> 💝 **Research Impact**: The project demo video is published on ResearchGate with DOI: [10.13140/RG.2.2.14153.42088](http://dx.doi.org/10.13140/RG.2.2.14153.42088)
+> 💝 **Special Acknowledgement**
+>
+> *Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://github.com/saakshii12) for their meaningful contributions, guidance, and support that helped shape this work.*
 
-### Project Resources
+### Project Overview
 
-| # | Resource | Description |
-|:-:|:---|:---|
-| 1 | [Project Report](CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf) | Complete project documentation |
-| 2 | [Project Presentation](CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf) | Mini project presentation slides |
-| 3 | [Presentation Status](CCL%20Mini%20Project/CCL_Mini%20Project_Presentation_Status_BE_B_FH%2022.pdf) | Presentation status document |
+A Pizza Ordering Chatbot developed as a mini project for the Cloud Computing Lab (CCL). The application enables users to order pizza through a conversational interface powered by **Amazon Lex**. It leverages **AWS Lambda** for backend logic and **Amazon CloudWatch** for monitoring. This project showcases the practical application of serverless computing and natural language processing to build an interactive and intelligent ordering system.
 
-### Video Demonstrations
+> [!NOTE]
+> **Research Impact:** The source code, presentation, and project report are published on **ResearchGate** and **IJRASET**.
+>
+> - [ResearchGate Profile](https://www.researchgate.net/profile/Amey-Thakur-2)
+> - [viXra Preprint](https://vixra.org/pdf/2203.0172v1.pdf)
+> - [IJRASET DOI](https://doi.org/10.22214/ijraset.2022.40861)
 
-| # | Video | Description |
-|:-:|:---|:---|
-| 1 | [YouTube Video](https://youtu.be/FHbXSo95S7A) | Project overview and explanation |
-| 2 | [Project Demo](https://youtu.be/6iLgN_1e4DU) | Live demonstration of the chatbot |
-| 3 | [Presentation](https://youtu.be/cI8Wv2aW37I) | Project presentation recording |
+### Resources
+
+| # | Resource | Description | Link |
+|:-:|:---|:---|:---|
+| 1 | Presentation | Research paper presentation and visuals | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.19606.01607) |
+| 2 | Project Report | Complete project documentation | [View](CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf) |
+| 3 | Project Demo | Live demonstration of the chatbot | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.14153.42088) |
+| 4 | YouTube Video | Project overview and explanation | [Watch](https://youtu.be/FHbXSo95S7A) |
+| 5 | Demonstration | Live chatbot demonstration | [Watch](https://youtu.be/6iLgN_1e4DU) |
+| 6 | Published Paper | IJRASET Publication | [DOI](https://doi.org/10.22214/ijraset.2022.40861) |
 
 ---
 
