@@ -117,17 +117,17 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
 </div>
 
-| # | Experiment | Report | Video Demo |
-|:-:|:---|:-:|:-:|
-| 1 | Introduction to Cloud Computing | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-1.pdf) | — |
-| 2A | AWS Account Setup and Configuration | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-2A.pdf) | — |
-| 2B | AWS Management Console Exploration | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-2B.pdf) | — |
-| 3 | AWS EC2 Instance Setup | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-3.pdf) | [🎬](https://youtu.be/y-oACtu8djc) |
-| 4 | AWS S3 Service Configuration | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-4.pdf) | [🎬](https://youtu.be/CnM07Vg7pW8) |
-| 5 | Website Deployment using AWS S3 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-5.pdf) | [🎬](https://youtu.be/CnM07Vg7pW8) |
-| 6 | WordPress Hosting on Amazon Lightsail | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-6.pdf) | [🎬](https://youtu.be/Ey8Tm4cC6yo) |
-| 7 | Creating IAM Users and Groups | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-7.pdf) | [🎬](https://youtu.be/dnmuv0PC7W8) |
-| 8 | Cloud Security and Best Practices | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-8.pdf) | — |
+| # | Experiment | Date | Marks | Report | Video Demo |
+|:-:|:---|:---:|:---:|:-:|:-:|
+| 1 | Study of NIST model of cloud computing | January 10, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-1.pdf) | — |
+| 2A | Implement Software Virtualization using Hypervisors (VMware) | January 17, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-2A.pdf) | — |
+| 2B | Implement Virtualization using VirtualBox | January 24, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-2B.pdf) | — |
+| 3 | Demonstrate and implement IaaS service using AWS EC2 | January 31, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-3.pdf) | [🎬](https://youtu.be/y-oACtu8djc) |
+| 4 | Demonstrate and implement AWS S3 storage service | February 07, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-4.pdf) | [🎬](https://youtu.be/CnM07Vg7pW8) |
+| 5 | Deploy static website using AWS S3 | February 14, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-5.pdf) | [🎬](https://youtu.be/CnM07Vg7pW8) |
+| 6 | Host WordPress website on Amazon Lightsail | February 21, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-6.pdf) | [🎬](https://youtu.be/Ey8Tm4cC6yo) |
+| 7 | Create IAM users and user groups in AWS | February 28, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-7.pdf) | [🎬](https://youtu.be/dnmuv0PC7W8) |
+| 8 | Study and implement Fog Computing concepts | March 07, 2022 | 10/10 | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-8.pdf) | — |
 
 ---
 
