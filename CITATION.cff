@@ -4,6 +4,7 @@ type: dataset
 authors:
 - family-names: "Thakur"
   given-names: "Amey"
+  orcid: "https://orcid.org/0000-0001-5644-1575"
 - family-names: "Satish"
   given-names: "Mega"
 title: "Cloud Computing Laboratory (CCL) Repository"
