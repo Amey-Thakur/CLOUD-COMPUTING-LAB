@@ -977,23 +977,70 @@
             transition: all 0.3s ease;
         }
 
-        .btn-custom-outline:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        .device-frame {
+            width: 300px;
+            height: 620px;
+            background: #000;
+            border-radius: 60px;
+            border: 8px solid #0f172a;
+            outline: 1.5px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 40px 100px rgba(0, 0, 0, 0.7);
+            margin: 0 auto;
+            transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
         }
 
-        /* Research Paper Button Specifics */
-        .btn-outline-accent {
-            background: var(--card-bg) !important;
-            color: var(--accent-color) !important;
-            border: 1px solid var(--accent-color) !important;
+        .device-frame:hover {
+            transform: scale(1.02) translateY(-10px);
+            box-shadow: 0 50px 120px rgba(0, 0, 0, 0.8);
+            border-color: #1e293b;
         }
 
-        .btn-gold {
-            background: #FFD700 !important;
-            color: #000 !important;
-            border: 1px solid #DAA520 !important;
-            font-weight: 700 !important;
+        .device-frame .dynamic-island {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90px;
+            height: 28px;
+            background: #000;
+            border-radius: 20px;
+            z-index: 10;
+            transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .device-frame:hover .dynamic-island {
+            width: 120px;
+            height: 32px;
+            background: #050505;
+        }
+
+        .device-frame .screen {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background: #000;
+        }
+
+        .device-frame iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            object-fit: cover;
+        }
+
+        /* Pro Max Specific Responsive Adjustments */
+        @media (max-width: 768px) {
+            .device-frame {
+                width: 260px;
+                height: 540px;
+                border-radius: 52px;
+            }
         }
     </style>
 </head>
@@ -1224,15 +1271,17 @@
             <!-- Mini Project Hero Section -->
             <div class="card-custom mini-project-hero animated-gradient-card reveal">
                 <div class="mini-project-content">
-                    <!-- Left: Video -->
+                    <!-- Left: Video (Mobile Frame) -->
                     <div class="project-video-col">
-                        <div class="video-container-vertical">
-                            <div class="skeleton-loader"></div>
-                            <iframe src="https://www.youtube.com/embed/6iLgN_1e4DU" title="Pizza Ordering Chatbot Demo"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                onload="this.parentElement.classList.add('loaded')" allowfullscreen
-                                loading="lazy"></iframe>
+                        <div class="device-frame">
+                            <div class="dynamic-island"></div>
+                            <div class="screen">
+                                <iframe src="https://www.youtube.com/embed/6iLgN_1e4DU"
+                                    title="Pizza Ordering Chatbot Demo"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    onload="this.closest('.device-frame').classList.add('loaded')" allowfullscreen
+                                    loading="lazy"></iframe>
+                            </div>
                         </div>
                     </div>
 
