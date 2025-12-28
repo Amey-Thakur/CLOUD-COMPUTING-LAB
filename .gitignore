@@ -1,35 +1,56 @@
-# Operating System Files
+# ALL REPOSITORIES
+# ----------------
+# General
 .DS_Store
 Thumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# IDE & Editor Configuration
-.vscode/
-.idea/
 *.swp
-*.swo
+*.log
+*.tmp
+*.bak
 *~
 
-# Web Development (CCL)
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Web
 node_modules/
-npm-debug.log
-yarn-error.log
+.env
 dist/
 build/
-.env
 
-# Python (if applicable for experiments)
-__pycache__/
-*.py[cod]
-*.so
+# Office Temporary Files
+~$*.doc
+~$*.docx
+~$*.ppt
+~$*.pptx
+~$*.xls
+~$*.xlsx
 
-# Java (if applicable for experiments)
-*.class
-*.jar
-*.war
+# LaTeX (if used)
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
 
-# Logs and Temporary Files
-*.log
-*.bak
-*.tmp
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Git
+*.orig
