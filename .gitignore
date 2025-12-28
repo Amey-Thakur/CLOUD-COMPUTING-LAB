@@ -1,0 +1,35 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE & Editor Configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Web Development (CCL)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.env
+
+# Python (if applicable for experiments)
+__pycache__/
+*.py[cod]
+*.so
+
+# Java (if applicable for experiments)
+*.class
+*.jar
+*.war
+
+# Logs and Temporary Files
+*.log
+*.bak
+*.tmp
