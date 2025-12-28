@@ -1,22 +1,10 @@
 cff-version: 1.2.0
 message: "If you use these academic materials, please cite them as below."
-type: dataset
 authors:
 - family-names: "Thakur"
   given-names: "Amey"
   orcid: "https://orcid.org/0000-0001-5644-1575"
-- family-names: "Satish"
-  given-names: "Mega"
-title: "Cloud Computing Laboratory (CCL) Repository"
-abstract: "A comprehensive academic resource for Cloud Computing Laboratory (CSL803), covering cloud concepts, virtualization, AWS services, and deployment strategies. This repository includes curated study materials, lab experiments, assignments, quizzes, and reference notes preserved for continuous learning."
+title: "CLOUD-COMPUTING-LAB"
 version: 1.0.0
-date-released: 2022-01-01
+date-released: 2022-08-09
 url: "https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB"
-keywords:
-  - cloud-computing
-  - aws
-  - virtualization
-  - academic-resource
-  - laboratory-experiments
-  - university-of-mumbai
-license: CC-BY-4.0
