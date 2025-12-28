@@ -141,12 +141,17 @@
             box-shadow: 0 4px 10px rgba(255, 153, 0, 0.2);
             border: 1px solid #e08a00;
             transition: all 0.3s ease;
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            text-decoration: none !important;
+            pointer-events: auto !important;
         }
 
         .badge-aws:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 15px rgba(255, 153, 0, 0.3);
-            filter: brightness(1.1);
+            transform: translateY(-5px) !important;
+            box-shadow: 0 6px 15px rgba(255, 153, 0, 0.4);
+            filter: brightness(1.2);
         }
 
         .badge-aws i {
@@ -501,6 +506,7 @@
         }
 
         .card-custom:hover .badge-tech,
+        .card-custom:hover .badge-aws,
         .video-card:hover .badge-tech,
         .mini-project-hero:hover .badge-tech,
         .badge-tech:hover {
@@ -936,7 +942,10 @@
                     <span class="exp-tag">CCL Portfolio</span>
                     <h5>Amey Thakur</h5>
                     <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
-                        <span class="badge-aws"><i class="fab fa-aws"></i> AWS Certified</span>
+                        <a href="https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01"
+                            target="_blank" class="badge-aws text-decoration-none">
+                            <i class="fab fa-aws"></i> AWS Certified
+                        </a>
                         <span class="badge-tech">AWS S3</span>
                         <span class="badge-tech">HTML/CSS</span>
                         <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
@@ -962,7 +971,10 @@
                     <span class="exp-tag">CCL Portfolio</span>
                     <h5>Mega Satish</h5>
                     <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
-                        <span class="badge-aws"><i class="fab fa-aws"></i> AWS Certified</span>
+                        <a href="https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01"
+                            target="_blank" class="badge-aws text-decoration-none">
+                            <i class="fab fa-aws"></i> AWS Certified
+                        </a>
                         <span class="badge-tech">AWS S3</span>
                         <span class="badge-tech">HTML/CSS</span>
                         <span class="badge bg-info text-dark ms-1" style="font-size: 0.7rem;"
