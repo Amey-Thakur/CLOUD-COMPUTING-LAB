@@ -169,6 +169,19 @@
                 transform: scale(0.98);
             }
         }
+
+        /* Footer for 404 */
+        .footer-simple {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .footer-simple .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
     </style>
 </head>
 
@@ -181,12 +194,20 @@
         <div class="error-code">404</div>
         <div class="error-title">Instance Not Found</div>
         <p class="error-message">
-            The requested resource could not be located in the cloud cluster. It may have been terminated, moved, or
-            never existed in this availability zone.
+            The requested cloud resource is <strong>out of scope</strong>. It appears this path is not configured in our
+            laboratory portfolio.
+            <br><br>
+            Please navigate back to the dashboard to access our experiments, research papers, and deployments.
         </p>
         <a href="index.html" class="btn-home">
             <i class="fas fa-home"></i> Return to Dashboard
         </a>
+
+        <div class="footer-simple">
+            <p>&copy; <span id="year"></span> Cloud Computing Lab</p>
+            <p>Designed & Developed by <span class="highlight">Amey Thakur</span> & <span class="highlight">Mega
+                    Satish</span></p>
+        </div>
     </div>
 
     <script>
@@ -194,6 +215,9 @@
         const htmlElement = document.documentElement;
         const savedTheme = localStorage.getItem('theme') || 'light';
         htmlElement.setAttribute('data-theme', savedTheme);
+
+        // Dynamic Year
+        document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
 
