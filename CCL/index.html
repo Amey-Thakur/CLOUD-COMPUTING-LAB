@@ -122,12 +122,35 @@
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
-        h1,
-        h2,
-        h3,
         h5 {
             font-family: 'Playfair Display', serif;
             color: var(--text-primary);
+        }
+
+        /* AWS Certification Badge Style */
+        .badge-aws {
+            background: #ff9900;
+            color: #000 !important;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 10px rgba(255, 153, 0, 0.2);
+            border: 1px solid #e08a00;
+            transition: all 0.3s ease;
+        }
+
+        .badge-aws:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(255, 153, 0, 0.3);
+            filter: brightness(1.1);
+        }
+
+        .badge-aws i {
+            font-size: 0.9rem;
         }
 
         .main-container {
@@ -652,6 +675,40 @@
             background: rgba(30, 41, 59, 0.9);
         }
 
+        /* Skeleton Loader Styling */
+        .skeleton-loader {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg,
+                    var(--border-color) 25%,
+                    var(--bg-color) 50%,
+                    var(--border-color) 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite linear;
+            z-index: 5;
+            transition: opacity 0.5s ease-out;
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: 200% 0;
+            }
+
+            100% {
+                background-position: -200% 0;
+            }
+        }
+
+        .video-container.loaded .skeleton-loader,
+        .video-thumbnail.loaded .skeleton-loader,
+        .video-container-vertical.loaded .skeleton-loader {
+            opacity: 0;
+            pointer-events: none;
+        }
+
         .video-thumbnail {
             width: 100%;
             aspect-ratio: 16/9;
@@ -824,14 +881,16 @@
                 virtualization strategies, and serverless application deployment.</p>
 
             <div class="info-badges">
-                <div class="d-flex gap-2 justify-content-center w-100 flex-wrap mb-2">
+                <div class="d-flex gap-2 justify-content-center w-100 flex-wrap mb-2 align-items-center">
+                    <span class="badge-aws"><i class="fab fa-aws"></i> AWS Certified</span>
                     <a href="https://github.com/Amey-Thakur" class="badge-pill clickable-badge" target="_blank">
                         <i class="fas fa-user-graduate me-2"></i>Amey Thakur
                     </a>
                     <span class="badge-pill">Roll No: 50</span>
                     <span class="badge-pill">Batch: B3</span>
                 </div>
-                <div class="d-flex gap-2 justify-content-center w-100 flex-wrap">
+                <div class="d-flex gap-2 justify-content-center w-100 flex-wrap align-items-center">
+                    <span class="badge-aws"><i class="fab fa-aws"></i> AWS Certified</span>
                     <a href="https://github.com/msatmod" class="badge-pill clickable-badge" target="_blank">
                         <i class="fas fa-user-graduate me-2"></i>Mega Satish
                     </a>
@@ -867,10 +926,10 @@
                     </div>
                     <span class="exp-tag">CCL Portfolio</span>
                     <h5>Amey Thakur</h5>
-                    <div class="tech-stack mb-3">
+                    <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                        <span class="badge-aws"><i class="fab fa-aws"></i> AWS Certified</span>
                         <span class="badge-tech">AWS S3</span>
                         <span class="badge-tech">HTML/CSS</span>
-                        <span class="badge-tech">GSAP</span>
                         <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
                             data-tooltip="High-performance static asset delivery via Amazon S3 with global availability.">Static
                             Hosting</span>
@@ -893,10 +952,10 @@
                     </div>
                     <span class="exp-tag">CCL Portfolio</span>
                     <h5>Mega Satish</h5>
-                    <div class="tech-stack mb-3">
+                    <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                        <span class="badge-aws"><i class="fab fa-aws"></i> AWS Certified</span>
                         <span class="badge-tech">AWS S3</span>
                         <span class="badge-tech">HTML/CSS</span>
-                        <span class="badge-tech">Responsive</span>
                         <span class="badge bg-info text-dark ms-1" style="font-size: 0.7rem;"
                             data-tooltip="Platform as a Service deployment showcasing automated hosting and scalability.">PaaS</span>
                     </div>
@@ -921,9 +980,10 @@
                 <div class="col-md-6 reveal-left">
                     <div class="video-card">
                         <div class="video-thumbnail">
+                            <div class="skeleton-loader"></div>
                             <iframe src="https://www.youtube.com/embed/y-oACtu8djc" title="AWS EC2 Demo" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                onload="this.parentElement.classList.add('loaded')" allowfullscreen></iframe>
                         </div>
                         <h5>AWS EC2 (IaaS)</h5>
                         <div class="tech-stack mb-3">
@@ -943,9 +1003,10 @@
                 <div class="col-md-6 reveal-right">
                     <div class="video-card">
                         <div class="video-thumbnail">
+                            <div class="skeleton-loader"></div>
                             <iframe src="https://www.youtube.com/embed/CnM07Vg7pW8" title="AWS S3 Demo" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                onload="this.parentElement.classList.add('loaded')" allowfullscreen></iframe>
                         </div>
                         <h5>AWS S3 & PaaS Hosting</h5>
                         <div class="tech-stack mb-3">
@@ -965,10 +1026,11 @@
                 <div class="col-md-6 reveal-left">
                     <div class="video-card">
                         <div class="video-thumbnail">
+                            <div class="skeleton-loader"></div>
                             <iframe src="https://www.youtube.com/embed/Ey8Tm4cC6yo" title="AWS Lightsail Demo"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                onload="this.parentElement.classList.add('loaded')" allowfullscreen></iframe>
                         </div>
                         <h5>AWS Lightsail (SaaS)</h5>
                         <div class="tech-stack mb-3">
@@ -988,9 +1050,10 @@
                 <div class="col-md-6 reveal-right">
                     <div class="video-card">
                         <div class="video-thumbnail">
+                            <div class="skeleton-loader"></div>
                             <iframe src="https://www.youtube.com/embed/dnmuv0PC7W8" title="AWS IAM Demo" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                onload="this.parentElement.classList.add('loaded')" allowfullscreen></iframe>
                         </div>
                         <h5>AWS IAM & Security</h5>
                         <div class="tech-stack mb-3">
@@ -1019,10 +1082,11 @@
                     <!-- Left: Video -->
                     <div class="project-video-col">
                         <div class="video-container-vertical">
+                            <div class="skeleton-loader"></div>
                             <iframe src="https://www.youtube.com/embed/6iLgN_1e4DU" title="Pizza Ordering Chatbot Demo"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                onload="this.parentElement.classList.add('loaded')" allowfullscreen></iframe>
                         </div>
                     </div>
 
