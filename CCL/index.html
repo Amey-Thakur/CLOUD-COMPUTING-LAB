@@ -435,10 +435,29 @@
             transition: all 0.2s;
         }
 
-        .card-custom:hover .badge-tech {
+        .card-custom:hover .badge-tech,
+        .video-card:hover .badge-tech,
+        .mini-project-hero:hover .badge-tech,
+        .badge-tech:hover {
             background: var(--badge-bg);
             color: var(--badge-text);
             border-color: var(--badge-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);
+        }
+
+        .badge-pill:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+            background: var(--accent-color) !important;
+            color: #fff !important;
+        }
+
+        /* Service Model Badge Hover */
+        .badge[data-tooltip]:hover {
+            transform: translateY(-2px);
+            filter: brightness(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         /* Info Button & Clickable Badges */
