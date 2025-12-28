@@ -880,6 +880,32 @@
                 justify-content: center;
             }
         }
+
+        /* Print Optimization */
+        @media print {
+
+            .theme-switch,
+            #btn-back-to-top,
+            .btn-view-template,
+            .hero-buttons,
+            .launch-link {
+                display: none !important;
+            }
+
+            body {
+                background-color: #ffffff !important;
+                color: #000000 !important;
+            }
+
+            .card-custom,
+            .hero,
+            .mini-project-hero,
+            .video-card {
+                box-shadow: none !important;
+                border: 1px solid #ccc !important;
+                break-inside: avoid;
+            }
+        }
     </style>
 </head>
 
@@ -888,7 +914,7 @@
 
         <!-- Hero Section -->
         <div class="hero">
-            <button class="theme-switch" id="theme-toggle" title="Switch Theme">
+            <button class="theme-switch" id="theme-toggle" title="Switch Theme" aria-label="Switch Theme">
                 <i class="fas fa-moon"></i>
             </button>
 
@@ -898,14 +924,16 @@
 
             <div class="info-badges">
                 <div class="d-flex gap-2 justify-content-center w-100 flex-wrap mb-2 align-items-center">
-                    <a href="https://github.com/Amey-Thakur" class="badge-pill clickable-badge" target="_blank">
+                    <a href="https://github.com/Amey-Thakur" class="badge-pill clickable-badge" target="_blank"
+                        rel="noopener noreferrer">
                         <i class="fas fa-user-graduate me-2"></i>Amey Thakur
                     </a>
                     <span class="badge-pill">Roll No: 50</span>
                     <span class="badge-pill">Batch: B3</span>
                 </div>
                 <div class="d-flex gap-2 justify-content-center w-100 flex-wrap align-items-center">
-                    <a href="https://github.com/msatmod" class="badge-pill clickable-badge" target="_blank">
+                    <a href="https://github.com/msatmod" class="badge-pill clickable-badge" target="_blank"
+                        rel="noopener noreferrer">
                         <i class="fas fa-user-graduate me-2"></i>Mega Satish
                     </a>
                     <span class="badge-pill">Roll No: 58</span>
@@ -942,7 +970,7 @@
                     <h5>Amey Thakur</h5>
                     <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
                         <a href="https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01"
-                            target="_blank" class="badge-aws text-decoration-none">
+                            target="_blank" class="badge-aws text-decoration-none" rel="noopener noreferrer">
                             <i class="fab fa-aws"></i> AWS Certified
                         </a>
                         <span class="badge-tech">AWS S3</span>
@@ -1003,7 +1031,8 @@
                             <div class="skeleton-loader"></div>
                             <iframe src="https://www.youtube.com/embed/y-oACtu8djc" title="AWS EC2 Demo" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                onload="this.parentElement.classList.add('loaded')" allowfullscreen></iframe>
+                                onload="this.parentElement.classList.add('loaded')" allowfullscreen
+                                loading="lazy"></iframe>
                         </div>
                         <h5>AWS EC2 (IaaS)</h5>
                         <div class="tech-stack mb-3">
@@ -1014,7 +1043,8 @@
                         </div>
                         <p>Practical implementation of Infrastructure as a Service using Amazon EC2 instances for
                             scalable computing power.</p>
-                        <a href="https://youtu.be/y-oACtu8djc" target="_blank" class="btn-watch">
+                        <a href="https://youtu.be/y-oACtu8djc" target="_blank" class="btn-watch"
+                            rel="noopener noreferrer">
                             <i class="fab fa-youtube"></i> Watch Demo
                         </a>
                     </div>
@@ -1026,7 +1056,8 @@
                             <div class="skeleton-loader"></div>
                             <iframe src="https://www.youtube.com/embed/CnM07Vg7pW8" title="AWS S3 Demo" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                onload="this.parentElement.classList.add('loaded')" allowfullscreen></iframe>
+                                onload="this.parentElement.classList.add('loaded')" allowfullscreen
+                                loading="lazy"></iframe>
                         </div>
                         <h5>AWS S3 & PaaS Hosting</h5>
                         <div class="tech-stack mb-3">
@@ -1037,7 +1068,8 @@
                         </div>
                         <p>Showcasing Storage as a Service and Static Website hosting on Amazon S3 with global
                             availability.</p>
-                        <a href="https://youtu.be/CnM07Vg7pW8" target="_blank" class="btn-watch">
+                        <a href="https://youtu.be/CnM07Vg7pW8" target="_blank" class="btn-watch"
+                            rel="noopener noreferrer">
                             <i class="fab fa-youtube"></i> Watch Demo
                         </a>
                     </div>
@@ -1050,7 +1082,8 @@
                             <iframe src="https://www.youtube.com/embed/Ey8Tm4cC6yo" title="AWS Lightsail Demo"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                onload="this.parentElement.classList.add('loaded')" allowfullscreen></iframe>
+                                onload="this.parentElement.classList.add('loaded')" allowfullscreen
+                                loading="lazy"></iframe>
                         </div>
                         <h5>AWS Lightsail (SaaS)</h5>
                         <div class="tech-stack mb-3">
@@ -1061,7 +1094,8 @@
                         </div>
                         <p>Deploying a managed WordPress application using AWS Lightsail for simplified Software as a
                             Service delivery.</p>
-                        <a href="https://youtu.be/Ey8Tm4cC6yo" target="_blank" class="btn-watch">
+                        <a href="https://youtu.be/Ey8Tm4cC6yo" target="_blank" class="btn-watch"
+                            rel="noopener noreferrer">
                             <i class="fab fa-youtube"></i> Watch Demo
                         </a>
                     </div>
@@ -1073,7 +1107,8 @@
                             <div class="skeleton-loader"></div>
                             <iframe src="https://www.youtube.com/embed/dnmuv0PC7W8" title="AWS IAM Demo" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                onload="this.parentElement.classList.add('loaded')" allowfullscreen></iframe>
+                                onload="this.parentElement.classList.add('loaded')" allowfullscreen
+                                loading="lazy"></iframe>
                         </div>
                         <h5>AWS IAM & Security</h5>
                         <div class="tech-stack mb-3">
@@ -1084,7 +1119,8 @@
                         </div>
                         <p>Securing cloud resources through Identity and Access Management (IAM) and robust policy
                             configurations.</p>
-                        <a href="https://youtu.be/dnmuv0PC7W8" target="_blank" class="btn-watch">
+                        <a href="https://youtu.be/dnmuv0PC7W8" target="_blank" class="btn-watch"
+                            rel="noopener noreferrer">
                             <i class="fab fa-youtube"></i> Watch Demo
                         </a>
                     </div>
@@ -1106,7 +1142,8 @@
                             <iframe src="https://www.youtube.com/embed/6iLgN_1e4DU" title="Pizza Ordering Chatbot Demo"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                onload="this.parentElement.classList.add('loaded')" allowfullscreen></iframe>
+                                onload="this.parentElement.classList.add('loaded')" allowfullscreen
+                                loading="lazy"></iframe>
                         </div>
                     </div>
 
@@ -1144,11 +1181,13 @@
                             <div class="w-100 d-flex gap-3 flex-wrap mb-2 align-items-center">
                                 <a href="../CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf"
                                     target="_blank" class="btn btn-primary-custom d-inline-flex align-items-center"
+                                    rel="noopener noreferrer"
                                     style="padding: 12px 30px; border-radius: 50px; background: var(--bg-color); color: var(--text-primary); border: 1px solid var(--border-color); font-weight: 600;">
                                     <i class="fas fa-file-pdf me-2"></i>View Full Report
                                 </a>
                                 <a href="https://doi.org/10.22214/ijraset.2022.40861" target="_blank"
                                     class="btn btn-primary-custom d-inline-flex align-items-center"
+                                    rel="noopener noreferrer"
                                     style="padding: 12px 30px; border-radius: 50px; background: var(--card-bg); color: var(--accent-color); border: 1px solid var(--accent-color); font-weight: 600;">
                                     <i class="fas fa-external-link-alt me-2"></i>Research Paper
                                 </a>
@@ -1156,11 +1195,12 @@
                             <div class="w-100 d-flex gap-3 flex-wrap align-items-center">
                                 <a href="https://youtu.be/FHbXSo95S7A" target="_blank"
                                     class="btn btn-primary-custom d-inline-flex align-items-center"
+                                    rel="noopener noreferrer"
                                     style="padding: 12px 30px; border-radius: 50px; background: #FFD700; color: #000; border: 1px solid #DAA520; font-weight: 700;">
                                     <i class="fas fa-play-circle me-2"></i>Step-by-Step Implementation Guide
                                 </a>
                                 <a href="https://youtu.be/6iLgN_1e4DU" target="_blank"
-                                    class="btn btn-watch d-inline-flex align-items-center"
+                                    class="btn btn-watch d-inline-flex align-items-center" rel="noopener noreferrer"
                                     style="padding: 12px 30px; border-radius: 50px;">
                                     <i class="fab fa-youtube me-2"></i>Watch Demo
                                 </a>
@@ -1174,16 +1214,20 @@
 
         <!-- Footer -->
         <footer class="footer">
-            <p>2022 &copy; All Rights Reserved | Designed and Developed by <a href="https://github.com/Amey-Thakur">Amey
-                    Thakur</a> & <a href="https://github.com/msatmod">Mega Satish</a></p>
+            <p>2022 - <span id="current-year"></span> &copy; All Rights Reserved | Designed and Developed by <a
+                    href="https://github.com/Amey-Thakur" rel="noopener noreferrer">Amey
+                    Thakur</a> & <a href="https://github.com/msatmod" rel="noopener noreferrer">Mega Satish</a></p>
         </footer>
 
         <!-- Back to Top Button -->
-        <button type="button" class="btn" id="btn-back-to-top">
+        <button type="button" class="btn" id="btn-back-to-top" aria-label="Back to Top">
             <i class="fas fa-arrow-up"></i>
         </button>
 
         <script>
+            // Set Current Year
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+
             const toggleBtn = document.getElementById('theme-toggle');
             const themeIcon = toggleBtn.querySelector('i');
             const htmlElement = document.documentElement;
