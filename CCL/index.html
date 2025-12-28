@@ -666,10 +666,69 @@
         }
 
         .mini-project-hero {
-            padding: 60px 40px;
-            text-align: center;
+            padding: 50px 40px;
+            text-align: left;
             margin-top: 50px;
             border-radius: 24px;
+        }
+
+        .mini-project-content {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            flex-direction: row;
+        }
+
+        .project-video-col {
+            flex: 0 0 300px;
+            max-width: 300px;
+        }
+
+        .project-info-col {
+            flex: 1;
+        }
+
+        .video-container-vertical {
+            position: relative;
+            padding-bottom: 177.78%;
+            /* 9:16 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-color);
+            background: #000;
+        }
+
+        .video-container-vertical iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+        }
+
+        @media (max-width: 991px) {
+            .mini-project-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .project-video-col {
+                flex: 0 0 auto;
+                width: 100%;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+
+            .mini-project-hero {
+                padding: 40px 20px;
+            }
+
+            .mini-project-hero .hero-buttons {
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -858,51 +917,56 @@
 
             <!-- Mini Project Hero Section -->
             <div class="card-custom mini-project-hero animated-gradient-card">
-                <div class="icon-wrapper mx-auto mb-4" style="width: 80px; height: 80px; font-size: 2.5rem;">
-                    <i class="fas fa-robot"></i>
-                </div>
-                <h2 class="fw-bold mb-3">Pizza Ordering Chatbot</h2>
-                <p class="text-secondary mx-auto mb-4" style="max-width: 800px; font-size: 1.1rem;">
-                    An intelligent conversational agent built with <b>Amazon Lex</b> and <b>AWS Lambda</b>.
-                    Features natural language understanding, automated order processing, and serverless backend
-                    integration.
-                    Published in the International Journal for Research in Applied Science and Engineering Technology
-                    (IJRASET).
-                </p>
+                <div class="mini-project-content">
+                    <!-- Left: Video -->
+                    <div class="project-video-col">
+                        <div class="video-container-vertical">
+                            <iframe src="https://www.youtube.com/embed/6iLgN_1e4DU" title="Pizza Ordering Chatbot Demo"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
 
-                <div class="d-flex gap-2 justify-content-center flex-wrap mb-4">
-                    <span class="badge-pill"><i class="fas fa-server me-2"></i>AWS Lex</span>
-                    <span class="badge-pill"><i class="fas fa-bolt me-2"></i>AWS Lambda</span>
-                    <span class="badge-pill"><i class="fas fa-microchip me-2"></i>Serverless</span>
-                    <span class="badge-pill"><i class="fas fa-journal-whills me-2"></i>Published Research</span>
-                </div>
+                    <!-- Right: Info -->
+                    <div class="project-info-col">
+                        <div class="icon-wrapper mb-4" style="width: 70px; height: 70px; font-size: 2rem;">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h2 class="fw-bold mb-3">Pizza Ordering Chatbot</h2>
+                        <p class="text-secondary mb-4" style="font-size: 1.1rem; line-height: 1.6;">
+                            An intelligent conversational agent built with <b>Amazon Lex</b> and <b>AWS Lambda</b>.
+                            Features natural language understanding, automated order processing, and serverless backend
+                            integration.
+                            Published in the International Journal for Research in Applied Science and Engineering
+                            Technology
+                            (IJRASET).
+                        </p>
 
-                <!-- Embedded Video Demo -->
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/6iLgN_1e4DU" title="Pizza Ordering Chatbot Demo"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
+                        <div class="d-flex gap-2 flex-wrap mb-4">
+                            <span class="badge-pill"><i class="fas fa-server me-2"></i>AWS Lex</span>
+                            <span class="badge-pill"><i class="fas fa-bolt me-2"></i>AWS Lambda</span>
+                            <span class="badge-pill"><i class="fas fa-microchip me-2"></i>Serverless</span>
+                            <span class="badge-pill"><i class="fas fa-journal-whills me-2"></i>Published Research</span>
+                        </div>
 
-                <div class="hero-buttons">
-                    <a href="https://youtu.be/6iLgN_1e4DU" target="_blank" class="btn-watch"
-                        style="padding: 12px 30px; border-radius: 50px;">
-                        <i class="fab fa-youtube me-2"></i>Watch Project Demo
-                    </a>
-                    <a href="https://youtu.be/FHbXSo95S7A" target="_blank" class="btn btn-primary-custom"
-                        style="padding: 12px 30px; border-radius: 50px; background: #FFD700; color: #000; border: 1px solid #DAA520; font-weight: 700;">
-                        <i class="fas fa-play-circle me-2"></i>Step-by-Step Implementation Guide
-                    </a>
-                    <a href="../CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf"
-                        target="_blank" class="btn btn-primary-custom"
-                        style="padding: 12px 30px; border-radius: 50px; background: var(--bg-color); color: var(--text-primary); border: 1px solid var(--border-color); font-weight: 600;">
-                        <i class="fas fa-file-pdf me-2"></i>View Full Report
-                    </a>
-                    <a href="https://doi.org/10.22214/ijraset.2022.40861" target="_blank" class="btn btn-primary-custom"
-                        style="padding: 12px 30px; border-radius: 50px; background: var(--card-bg); color: var(--accent-color); border: 1px solid var(--accent-color); font-weight: 600;">
-                        <i class="fas fa-external-link-alt me-2"></i>Research Paper
-                    </a>
+                        <div class="hero-buttons d-flex gap-3 flex-wrap">
+                            <a href="https://youtu.be/FHbXSo95S7A" target="_blank" class="btn btn-primary-custom"
+                                style="padding: 12px 30px; border-radius: 50px; background: #FFD700; color: #000; border: 1px solid #DAA520; font-weight: 700;">
+                                <i class="fas fa-play-circle me-2"></i>Step-by-Step Implementation Guide
+                            </a>
+                            <a href="../CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf"
+                                target="_blank" class="btn btn-primary-custom"
+                                style="padding: 12px 30px; border-radius: 50px; background: var(--bg-color); color: var(--text-primary); border: 1px solid var(--border-color); font-weight: 600;">
+                                <i class="fas fa-file-pdf me-2"></i>View Full Report
+                            </a>
+                            <a href="https://doi.org/10.22214/ijraset.2022.40861" target="_blank"
+                                class="btn btn-primary-custom"
+                                style="padding: 12px 30px; border-radius: 50px; background: var(--card-bg); color: var(--accent-color); border: 1px solid var(--accent-color); font-weight: 600;">
+                                <i class="fas fa-external-link-alt me-2"></i>Research Paper
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
