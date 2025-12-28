@@ -905,6 +905,70 @@
                 border: 1px solid #ccc !important;
                 break-inside: avoid;
             }
+
+            /* Hide interactive elements for print */
+            .theme-switch,
+            .btn-view-template,
+            #btn-back-to-top,
+            .hero-buttons,
+            .launch-link,
+            .btn-watch,
+            .btn-primary-custom,
+            iframe {
+                display: none !important;
+            }
+
+            /* Ensure text contrast */
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            p,
+            span,
+            div {
+                color: #000 !important;
+                background: #fff !important;
+            }
+        }
+
+        /* Refactored Utility Classes */
+        .btn-secondary-custom {
+            background: var(--card-bg);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .badge-sm {
+            font-size: 0.7rem !important;
+        }
+
+        .btn-pill-lg {
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .btn-outline-primary {
+            background: var(--bg-color);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-outline-accent {
+            background: var(--card-bg);
+            color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+        }
+
+        .btn-gold {
+            background: #FFD700;
+            color: #000;
+            border: 1px solid #DAA520;
+            font-weight: 700;
         }
     </style>
 </head>
@@ -945,8 +1009,8 @@
                 <a href="https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB" class="btn btn-primary-custom">
                     <i class="fab fa-github me-2"></i>CCL Repository
                 </a>
-                <a href="https://github.com/Amey-Thakur/COMPUTER-ENGINEERING" class="btn btn-primary-custom"
-                    style="background:var(--card-bg); color:var(--text-primary); border:1px solid var(--border-color);">
+                <a href="https://github.com/Amey-Thakur/COMPUTER-ENGINEERING"
+                    class="btn btn-primary-custom btn-secondary-custom">
                     <i class="fas fa-code-branch me-2"></i>Computer Engineering Repo
                 </a>
             </div>
@@ -975,7 +1039,7 @@
                         </a>
                         <span class="badge-tech">AWS S3</span>
                         <span class="badge-tech">HTML/CSS</span>
-                        <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                        <span class="badge bg-primary ms-1 badge-sm"
                             data-tooltip="High-performance static asset delivery via Amazon S3 with global availability.">Static
                             Hosting</span>
                     </div>
@@ -1180,28 +1244,23 @@
                         <div class="hero-buttons d-flex gap-3 flex-wrap">
                             <div class="w-100 d-flex gap-3 flex-wrap mb-2 align-items-center">
                                 <a href="../CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf"
-                                    target="_blank" class="btn btn-primary-custom d-inline-flex align-items-center"
-                                    rel="noopener noreferrer"
-                                    style="padding: 12px 30px; border-radius: 50px; background: var(--bg-color); color: var(--text-primary); border: 1px solid var(--border-color); font-weight: 600;">
+                                    target="_blank" class="btn btn-primary-custom btn-pill-lg btn-outline-primary"
+                                    rel="noopener noreferrer">
                                     <i class="fas fa-file-pdf me-2"></i>View Full Report
                                 </a>
                                 <a href="https://doi.org/10.22214/ijraset.2022.40861" target="_blank"
-                                    class="btn btn-primary-custom d-inline-flex align-items-center"
-                                    rel="noopener noreferrer"
-                                    style="padding: 12px 30px; border-radius: 50px; background: var(--card-bg); color: var(--accent-color); border: 1px solid var(--accent-color); font-weight: 600;">
+                                    class="btn btn-primary-custom btn-pill-lg btn-outline-accent"
+                                    rel="noopener noreferrer">
                                     <i class="fas fa-external-link-alt me-2"></i>Research Paper
                                 </a>
                             </div>
                             <div class="w-100 d-flex gap-3 flex-wrap align-items-center">
                                 <a href="https://youtu.be/FHbXSo95S7A" target="_blank"
-                                    class="btn btn-primary-custom d-inline-flex align-items-center"
-                                    rel="noopener noreferrer"
-                                    style="padding: 12px 30px; border-radius: 50px; background: #FFD700; color: #000; border: 1px solid #DAA520; font-weight: 700;">
+                                    class="btn btn-primary-custom btn-pill-lg btn-gold" rel="noopener noreferrer">
                                     <i class="fas fa-play-circle me-2"></i>Step-by-Step Implementation Guide
                                 </a>
-                                <a href="https://youtu.be/6iLgN_1e4DU" target="_blank"
-                                    class="btn btn-watch d-inline-flex align-items-center" rel="noopener noreferrer"
-                                    style="padding: 12px 30px; border-radius: 50px;">
+                                <a href="https://youtu.be/6iLgN_1e4DU" target="_blank" class="btn btn-watch btn-pill-lg"
+                                    rel="noopener noreferrer">
                                     <i class="fab fa-youtube me-2"></i>Watch Demo
                                 </a>
                             </div>
