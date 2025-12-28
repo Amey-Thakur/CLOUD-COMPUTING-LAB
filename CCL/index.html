@@ -250,22 +250,34 @@
             border-radius: 2px;
         }
 
-        /* Cards */
+        /* Glassmorphism Cards */
         .card-custom {
-            background: var(--card-bg);
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border-radius: 16px;
-            border: 1px solid var(--border-color);
+            border: 1px solid rgba(255, 255, 255, 0.3);
             padding: 30px;
             height: 100%;
-            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.8s ease, border-color 0.8s ease;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
             position: relative;
             z-index: 1;
         }
 
+        [data-theme="dark"] .card-custom {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
         .card-custom:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             border-color: var(--accent-color);
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        [data-theme="dark"] .card-custom:hover {
+            background: rgba(30, 41, 59, 0.9);
         }
 
         .icon-wrapper {
@@ -396,9 +408,39 @@
             }
         }
 
-        .col-md-6 {
+        /* Scroll Reveal Animations */
+        .reveal {
             opacity: 0;
-            animation: fadeInUp 0.6s ease-out forwards;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            will-change: opacity, transform;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-left {
+            opacity: 0;
+            transform: translateX(-50px);
+            transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .reveal-right {
+            opacity: 0;
+            transform: translateX(50px);
+            transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .reveal-left.active,
+        .reveal-right.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .col-md-6 {
+            /* Handled by reveal classes */
         }
 
         .col-md-6:nth-child(1) {
@@ -551,17 +593,19 @@
             transform: translateX(-50%) translateY(0);
         }
 
-        /* Animated Gradient Card (WDL Style) */
-        .animated-gradient-card {
-            background: linear-gradient(-45deg, #ffffff, #f0f4ff, #e0e7ff, #f8fafc);
-            background-size: 400% 400%;
+        /* Animated Gradient Card (WDL Style) with Glassmorphism */
+        .mini-project-hero {
+            background: linear-gradient(-45deg, rgba(255, 255, 255, 0.4), rgba(240, 244, 255, 0.4), rgba(224, 231, 255, 0.4), rgba(248, 250, 252, 0.4)) !important;
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            background-size: 400% 400% !important;
             animation: gradientBG 15s ease infinite;
-            border: 1px solid var(--accent-color) !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
         }
 
-        [data-theme="dark"] .animated-gradient-card {
-            background: linear-gradient(-45deg, #0f172a, #1e293b, #0f172a, #1a237e);
-            background-size: 400% 400%;
+        [data-theme="dark"] .mini-project-hero {
+            background: linear-gradient(-45deg, rgba(15, 23, 42, 0.4), rgba(30, 41, 59, 0.4), rgba(15, 23, 42, 0.4), rgba(26, 35, 126, 0.4)) !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
         }
 
         @keyframes gradientBG {
@@ -578,22 +622,34 @@
             }
         }
 
-        /* Video Card Styles */
+        /* Video Card Glassmorphism */
         .video-card {
-            background: var(--card-bg);
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
             border-radius: 16px;
-            border: 1px solid var(--border-color);
+            border: 1px solid rgba(255, 255, 255, 0.3);
             padding: 25px;
             height: 100%;
-            transition: all 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
             display: flex;
             flex-direction: column;
         }
 
+        [data-theme="dark"] .video-card {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
         .video-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-8px);
             border-color: var(--accent-color);
-            box-shadow: var(--shadow-md);
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        [data-theme="dark"] .video-card:hover {
+            background: rgba(30, 41, 59, 0.9);
         }
 
         .video-thumbnail {
@@ -796,7 +852,7 @@
         </div>
 
         <!-- Section Title -->
-        <div class="section-title">
+        <div class="section-title reveal">
             <h3>Student Portfolios</h3>
         </div>
 
@@ -804,7 +860,7 @@
         <div class="row g-4 justify-content-center">
 
             <!-- Amey's Portfolio -->
-            <div class="col-md-6">
+            <div class="col-md-6 reveal-left">
                 <div class="card-custom">
                     <div class="icon-wrapper">
                         <i class="fas fa-user-tie"></i>
@@ -830,7 +886,7 @@
             </div>
 
             <!-- Mega's Portfolio -->
-            <div class="col-md-6">
+            <div class="col-md-6 reveal-right">
                 <div class="card-custom">
                     <div class="icon-wrapper">
                         <i class="fas fa-user-graduate"></i>
@@ -855,14 +911,14 @@
             </div>
 
             <!-- Laboratory Demonstrations Title -->
-            <div class="section-title" style="margin-top: 40px;">
+            <div class="section-title reveal" style="margin-top: 40px;">
                 <h3>Laboratory Demonstrations</h3>
             </div>
 
             <!-- Video Demonstrations Grid -->
             <div class="row g-4 justify-content-center">
                 <!-- Exp 3 -->
-                <div class="col-md-6">
+                <div class="col-md-6 reveal-left">
                     <div class="video-card">
                         <div class="video-thumbnail">
                             <iframe src="https://www.youtube.com/embed/y-oACtu8djc" title="AWS EC2 Demo" frameborder="0"
@@ -884,7 +940,7 @@
                     </div>
                 </div>
                 <!-- Exp 4 & 5 -->
-                <div class="col-md-6">
+                <div class="col-md-6 reveal-right">
                     <div class="video-card">
                         <div class="video-thumbnail">
                             <iframe src="https://www.youtube.com/embed/CnM07Vg7pW8" title="AWS S3 Demo" frameborder="0"
@@ -906,7 +962,7 @@
                     </div>
                 </div>
                 <!-- Exp 6 -->
-                <div class="col-md-6">
+                <div class="col-md-6 reveal-left">
                     <div class="video-card">
                         <div class="video-thumbnail">
                             <iframe src="https://www.youtube.com/embed/Ey8Tm4cC6yo" title="AWS Lightsail Demo"
@@ -929,7 +985,7 @@
                     </div>
                 </div>
                 <!-- Exp 7 -->
-                <div class="col-md-6">
+                <div class="col-md-6 reveal-right">
                     <div class="video-card">
                         <div class="video-thumbnail">
                             <iframe src="https://www.youtube.com/embed/dnmuv0PC7W8" title="AWS IAM Demo" frameborder="0"
@@ -953,12 +1009,12 @@
             </div>
 
             <!-- Mini Project Title -->
-            <div class="section-title" style="margin-top: 40px;">
+            <div class="section-title reveal" style="margin-top: 40px;">
                 <h3>Mini Project</h3>
             </div>
 
             <!-- Mini Project Hero Section -->
-            <div class="card-custom mini-project-hero animated-gradient-card">
+            <div class="card-custom mini-project-hero animated-gradient-card reveal">
                 <div class="mini-project-content">
                     <!-- Left: Video -->
                     <div class="project-video-col">
@@ -1087,6 +1143,22 @@
                     themeIcon.classList.add('fa-moon');
                 }
             }
+
+            // Scroll Reveal Logic using Intersection Observer
+            const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: "0px 0px -50px 0px"
+            });
+
+            revealElements.forEach(el => revealObserver.observe(el));
         </script>
 </body>
 
