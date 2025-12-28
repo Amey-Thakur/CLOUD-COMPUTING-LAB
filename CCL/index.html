@@ -624,11 +624,28 @@
             background-size: 400% 400% !important;
             animation: gradientBG 15s ease infinite;
             border: 1px solid rgba(255, 255, 255, 0.5) !important;
+            padding: 50px 40px;
+            text-align: left;
+            margin-top: 50px;
+            border-radius: 24px;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            position: relative;
+            z-index: 1;
         }
 
         [data-theme="dark"] .mini-project-hero {
             background: linear-gradient(-45deg, rgba(15, 23, 42, 0.4), rgba(30, 41, 59, 0.4), rgba(15, 23, 42, 0.4), rgba(26, 35, 126, 0.4)) !important;
             border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        }
+
+        .mini-project-hero:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(-45deg, rgba(255, 255, 255, 0.6), rgba(240, 244, 255, 0.6), rgba(224, 231, 255, 0.6), rgba(248, 250, 252, 0.6)) !important;
+        }
+
+        [data-theme="dark"] .mini-project-hero:hover {
+            background: linear-gradient(-45deg, rgba(15, 23, 42, 0.6), rgba(30, 41, 59, 0.6), rgba(15, 23, 42, 0.6), rgba(26, 35, 126, 0.6)) !important;
         }
 
         @keyframes gradientBG {
@@ -799,12 +816,6 @@
             border-radius: 20px;
         }
 
-        .mini-project-hero {
-            padding: 50px 40px;
-            text-align: left;
-            margin-top: 50px;
-            border-radius: 24px;
-        }
 
         .mini-project-content {
             display: flex;
