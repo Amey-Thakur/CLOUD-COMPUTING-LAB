@@ -589,16 +589,25 @@
             justify-content: center;
         }
 
-        .video-thumbnail img {
+        .video-thumbnail {
             width: 100%;
-            height: 100%;
-            object-fit: cover;
-            opacity: 0.8;
-            transition: opacity 0.3s;
+            aspect-ratio: 16/9;
+            background: #000;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border-color);
         }
 
-        .video-card:hover .video-thumbnail img {
-            opacity: 0.6;
+        .video-thumbnail iframe {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
         }
 
         .play-overlay {
@@ -776,8 +785,9 @@
                 <div class="col-md-6">
                     <div class="video-card">
                         <div class="video-thumbnail">
-                            <img src="https://img.youtube.com/vi/y-oACtu8djc/maxresdefault.jpg" alt="AWS EC2 Demo">
-                            <i class="fas fa-play-circle play-overlay"></i>
+                            <iframe src="https://www.youtube.com/embed/y-oACtu8djc" title="AWS EC2 Demo" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
                         </div>
                         <h5>AWS EC2 (IaaS)</h5>
                         <p>Practical implementation of Infrastructure as a Service using Amazon EC2 instances for
@@ -792,8 +802,9 @@
                 <div class="col-md-6">
                     <div class="video-card">
                         <div class="video-thumbnail">
-                            <img src="https://img.youtube.com/vi/CnM07Vg7pW8/maxresdefault.jpg" alt="AWS S3 Demo">
-                            <i class="fas fa-play-circle play-overlay"></i>
+                            <iframe src="https://www.youtube.com/embed/CnM07Vg7pW8" title="AWS S3 Demo" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
                         </div>
                         <h5>AWS S3 & PaaS Hosting</h5>
                         <p>Showcasing Storage as a Service and Static Website hosting on Amazon S3 with global
@@ -808,9 +819,10 @@
                 <div class="col-md-6">
                     <div class="video-card">
                         <div class="video-thumbnail">
-                            <img src="https://img.youtube.com/vi/Ey8Tm4cC6yo/maxresdefault.jpg"
-                                alt="AWS Lightsail Demo">
-                            <i class="fas fa-play-circle play-overlay"></i>
+                            <iframe src="https://www.youtube.com/embed/Ey8Tm4cC6yo" title="AWS Lightsail Demo"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
                         </div>
                         <h5>AWS Lightsail (SaaS)</h5>
                         <p>Deploying a managed WordPress application using AWS Lightsail for simplified Software as a
@@ -825,8 +837,9 @@
                 <div class="col-md-6">
                     <div class="video-card">
                         <div class="video-thumbnail">
-                            <img src="https://img.youtube.com/vi/dnmuv0PC7W8/maxresdefault.jpg" alt="AWS IAM Demo">
-                            <i class="fas fa-play-circle play-overlay"></i>
+                            <iframe src="https://www.youtube.com/embed/dnmuv0PC7W8" title="AWS IAM Demo" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
                         </div>
                         <h5>AWS IAM & Security</h5>
                         <p>Securing cloud resources through Identity and Access Management (IAM) and robust policy
