@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use these academic materials, please cite them as below."
+authors:
+- family-names: "Thakur"
+  given-names: "Amey"
+- family-names: "Satish"
+  given-names: "Mega"
+title: "Cloud Computing Lab"
+version: 1.0.0
+date-released: 2022-01-01
+url: "https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB"
+license: MIT
