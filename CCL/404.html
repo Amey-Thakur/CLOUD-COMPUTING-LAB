@@ -1,3 +1,15 @@
+<!--
+    Cloud Computing Laboratory (CCL) Portfolio
+    University of Mumbai
+
+    Authors: Amey Thakur & Mega Satish
+    Role: Custom Error Page
+    Repository: https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB
+
+    Description: A personalized 404 error page with a cloud computing theme,
+                 authorship details, and canonical redirection.
+    License: MIT License
+-->
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 
@@ -215,7 +227,13 @@
     </div>
 
     <script>
-        // Theme Logic
+        /**
+         * =========================================
+         *   PAGE LOGIC
+         * =========================================
+         */
+
+        // Theme Persistence Logic
         const htmlElement = document.documentElement;
         const savedTheme = localStorage.getItem('theme') || 'light';
         htmlElement.setAttribute('data-theme', savedTheme);
