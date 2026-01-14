@@ -265,7 +265,7 @@ Understanding implementation and applications of Fog Computing.
 
   <br>
 
-  🏠 **[Back to Main Repository](../)**
+  🏠 **[Back to Main Repository](../)** &nbsp;·&nbsp; <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="30" height="30" alt="AWS" align="middle"/>&nbsp;<b><a href="https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01">AWS-CLF-C01</a></b>
 
 </div>
 
