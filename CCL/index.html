@@ -1535,6 +1535,58 @@
                         setTimeout(() => hint.remove(), 500);
                     }
                 }, 5000);
+
+                // Share Button Functionality
+                const shareBtn = document.getElementById('share-btn');
+                if (shareBtn) {
+                    shareBtn.addEventListener('click', async () => {
+                        const shareData = {
+                            title: 'CCL Lab Portfolio — Amey Thakur & Mega Satish',
+                            text: 'CCL Lab Portfolio — Amey Thakur & Mega Satish',
+                            url: window.location.href
+                        };
+
+                        try {
+                            if (navigator.share) {
+                                await navigator.share(shareData);
+                                console.log('✅ Shared successfully');
+                            } else {
+                                await navigator.clipboard.writeText(window.location.href);
+                                alert('Link copied to clipboard!');
+                            }
+                        } catch (error) {
+                            console.log('Share cancelled or failed:', error);
+                        }
+                    });
+                }
+
+                // PWA Install Prompt
+                let deferredPrompt;
+                const pwaInstallBtn = document.getElementById('pwa-install-btn');
+
+                window.addEventListener('beforeinstallprompt', (e) => {
+                    e.preventDefault();
+                    deferredPrompt = e;
+                    if (pwaInstallBtn) pwaInstallBtn.style.display = 'flex';
+                });
+
+                if (pwaInstallBtn) {
+                    pwaInstallBtn.addEventListener('click', async () => {
+                        if (deferredPrompt) {
+                            deferredPrompt.prompt();
+                            const { outcome } = await deferredPrompt.userChoice;
+                            if (outcome === 'accepted') {
+                                pwaInstallBtn.style.display = 'none';
+                            }
+                            deferredPrompt = null;
+                        }
+                    });
+                }
+
+                window.addEventListener('appinstalled', () => {
+                    console.log('✅ PWA installed successfully');
+                    if (pwaInstallBtn) pwaInstallBtn.style.display = 'none';
+                });
             })();
         </script>
 
