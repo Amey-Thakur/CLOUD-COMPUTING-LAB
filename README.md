@@ -211,6 +211,7 @@ A Pizza Ordering Chatbot developed as a mini project for the Cloud Computing Lab
 | 4 | YouTube Video | Project overview and explanation | — | [Watch](https://youtu.be/FHbXSo95S7A) |
 | 5 | Demonstration | Live chatbot demonstration | — | [Watch](https://youtu.be/6iLgN_1e4DU) |
 | 6 | Published Paper | IJRASET Publication | — | [DOI](https://doi.org/10.22214/ijraset.2022.40861) |
+| 7 | Publication Certificate | Official Certificate of Publication | — | [View](CCL%20Mini%20Project/Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex/IJRASET40861%20-%20Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex.pdf) |
 
 ---
 
