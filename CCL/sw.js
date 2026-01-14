@@ -17,8 +17,8 @@ const STATIC_ASSETS = [
     './404.html',
     './manifest.json',
     './assets/js/script.js',
-    './assets/icon-192.png',
-    './assets/icon-512.png'
+    './assets/design_assets/icon-192.png',
+    './assets/design_assets/icon-512.png'
 ];
 
 // Install event - cache static assets
