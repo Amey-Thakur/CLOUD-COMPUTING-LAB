@@ -114,6 +114,47 @@ const searchItems = [
 ];
 
 // =========================================
+//   STATS COUNTER ANIMATION
+// =========================================
+const stats = document.querySelectorAll('.stat-number');
+let hasAnimated = false;
+
+function animateStats() {
+    if (hasAnimated) return;
+
+    const statsContainer = document.querySelector('.stats-container');
+    if (!statsContainer) return;
+
+    const sectionTop = statsContainer.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    if (sectionTop < windowHeight - 50) {
+        stats.forEach(stat => {
+            const target = +stat.getAttribute('data-target');
+            const suffix = stat.getAttribute('data-suffix') || '';
+            const increment = target / 50; // Speed of animation
+
+            let current = 0;
+            const updateCount = () => {
+                if (current < target) {
+                    current = Math.ceil(current + increment);
+                    if (current > target) current = target;
+                    stat.innerText = current + suffix;
+                    setTimeout(updateCount, 30);
+                } else {
+                    stat.innerText = target + suffix;
+                }
+            };
+            updateCount();
+        });
+        hasAnimated = true;
+    }
+}
+
+window.addEventListener('scroll', animateStats);
+animateStats(); // Trigger once on load
+
+// =========================================
 //   SCROLL REVEAL ANIMATIONS
 // =========================================
 function reveal() {
