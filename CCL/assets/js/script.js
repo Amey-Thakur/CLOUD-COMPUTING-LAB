@@ -113,6 +113,36 @@ const searchItems = [
     { title: 'Toggle Theme', action: 'toggleTheme', icon: 'fas fa-adjust', type: 'Action' },
 ];
 
+// =========================================
+//   SCROLL REVEAL ANIMATIONS
+// =========================================
+function reveal() {
+    const reveals = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+    const windowHeight = window.innerHeight;
+    const elementVisible = 100;
+
+    reveals.forEach((reveal) => {
+        const elementTop = reveal.getBoundingClientRect().top;
+        if (elementTop < windowHeight - elementVisible) {
+            reveal.classList.add('active');
+        }
+    });
+}
+
+window.addEventListener('scroll', reveal);
+reveal(); // Trigger once on load
+
+// =========================================
+//   AUTO-HIDE KEYBOARD HINT
+// =========================================
+setTimeout(() => {
+    if (kbdHint) {
+        kbdHint.classList.add('hidden');
+        // Remove from DOM after transition
+        setTimeout(() => kbdHint.remove(), 600);
+    }
+}, 8000);
+
 // Open/Close Handlers
 document.addEventListener('keydown', (e) => {
     // Ignore if typing in input
