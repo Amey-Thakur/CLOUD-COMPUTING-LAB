@@ -1503,6 +1503,41 @@
             </div>
         </div>
 
+        <!-- Inline Stats Animation Script -->
+        <script>
+            (function () {
+                // Stats Counter Animation - runs immediately after stats-container
+                const stats = document.querySelectorAll('.stat-number');
+                stats.forEach(stat => {
+                    const target = parseInt(stat.getAttribute('data-target'));
+                    const suffix = stat.getAttribute('data-suffix') || '';
+                    const duration = 1500; // 1.5 seconds
+                    const increment = target / (duration / 30);
+                    let current = 0;
+
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= target) {
+                            stat.textContent = target + suffix;
+                            clearInterval(timer);
+                        } else {
+                            stat.textContent = Math.ceil(current) + suffix;
+                        }
+                    }, 30);
+                });
+
+                // Auto-hide keyboard hint after 5 seconds
+                setTimeout(() => {
+                    const hint = document.getElementById('kbd-hint');
+                    if (hint) {
+                        hint.style.opacity = '0';
+                        hint.style.transition = 'opacity 0.5s ease';
+                        setTimeout(() => hint.remove(), 500);
+                    }
+                }, 5000);
+            })();
+        </script>
+
         <!-- Section Title -->
         <div class="section-title reveal">
             <h3>Student Portfolios</h3>
