@@ -170,6 +170,53 @@ function reveal() {
     });
 }
 
+// =========================================
+//   BACK TO TOP BUTTON
+// =========================================
+const backToTopBtn = document.getElementById('btn-back-to-top');
+
+if (backToTopBtn) {
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTopBtn.style.display = 'flex';
+        } else {
+            backToTopBtn.style.display = 'none';
+        }
+    });
+
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+}
+
+// =========================================
+//   SHARE FUNCTIONALITY
+// =========================================
+const shareBtn = document.getElementById('share-btn');
+
+if (shareBtn) {
+    shareBtn.addEventListener('click', async () => {
+        const shareData = {
+            title: 'CCL Portfolio — Amey Thakur & Mega Satish',
+            text: 'Cloud Computing Lab Portfolio — Amey Thakur & Mega Satish',
+            url: window.location.href
+        };
+
+        try {
+            if (navigator.share) {
+                await navigator.share(shareData);
+                console.log('✅ Shared successfully');
+            } else {
+                // Fallback: Copy to clipboard
+                await navigator.clipboard.writeText(window.location.href);
+                alert('Link copied to clipboard!');
+            }
+        } catch (error) {
+            console.log('Share error:', error);
+        }
+    });
+}
+
 window.addEventListener('scroll', reveal);
 reveal(); // Trigger once on load
 

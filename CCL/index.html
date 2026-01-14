@@ -1051,6 +1051,65 @@
             }
         }
 
+        /* Back to Top Button */
+        #btn-back-to-top {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            display: none;
+            z-index: 100;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        #btn-back-to-top:hover {
+            transform: translateY(-5px);
+            background: var(--accent-hover);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Top Controls */
+        .top-controls {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .control-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .control-btn:hover {
+            transform: scale(1.1);
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
         /* Stats Counter */
         .stats-container {
             display: flex;
@@ -1319,9 +1378,14 @@
 
         <!-- Hero Section -->
         <div class="hero" id="home">
-            <button class="theme-switch" id="theme-toggle" title="Switch Theme" aria-label="Switch Theme">
-                <i class="fas fa-moon"></i>
-            </button>
+            <div class="top-controls">
+                <button class="control-btn" id="share-btn" title="Share Portfolio" aria-label="Share Portfolio">
+                    <i class="fas fa-share-nodes"></i>
+                </button>
+                <button class="control-btn" id="theme-toggle" title="Switch Theme" aria-label="Switch Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
 
             <h1>Cloud Computing Lab</h1>
             <p>A curated portfolio of cloud computing experiments, demonstrating AWS infrastructure,
@@ -1717,7 +1781,11 @@
 
             revealElements.forEach(el => revealObserver.observe(el));
         </script>
-        <!-- Security & Logic Script -->
+        <!-- Back to Top Button -->
+        <button type="button" class="btn" id="btn-back-to-top" aria-label="Back to Top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
         <!-- Keyboard Hint -->
         <div id="kbd-hint" class="kbd-hint">
             <span>Press</span>
