@@ -180,8 +180,8 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 <div align="center">
 
   <!-- Authors Table -->
-  ### 👥 Authors
-| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="CCL%20Mini%20Project/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) |
+  ### Authors
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="CCL%20Mini%20Project/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
 | :---: | :---: |
 </div>
 
@@ -282,7 +282,7 @@ This repository and all linked academic content are made available under the **C
 
 This repository represents a comprehensive collection of study materials, reference books, assignments, and personal preparation notes curated during my academic journey. All content has been carefully organized and documented to serve as a valuable resource for students pursuing Cloud Computing Laboratory.
 
-**Connect:** [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
+**Connect:** [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 
