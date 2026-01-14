@@ -115,6 +115,25 @@ const searchItems = [
 
 // Open/Close Handlers
 document.addEventListener('keydown', (e) => {
+    // Ignore if typing in input
+    if (document.activeElement.tagName === 'INPUT') return;
+
+    // Toggle Theme (Shift + T)
+    if (e.key.toLowerCase() === 't' && e.shiftKey) {
+        const toggleBtn = document.getElementById('theme-toggle');
+        if (toggleBtn) toggleBtn.click();
+    }
+
+    // Go Home (Shift + H)
+    if (e.key.toLowerCase() === 'h' && e.shiftKey) {
+        window.location.href = '#home';
+    }
+
+    // Go to Mini Project (Shift + P)
+    if (e.key.toLowerCase() === 'p' && e.shiftKey) {
+        window.location.href = '#mini-project';
+    }
+
     // Ctrl+K to Open
     if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
