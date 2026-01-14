@@ -168,6 +168,7 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
   [![Presentation](https://img.shields.io/badge/📊-Presentation-orange.svg)](CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)
   [![YouTube Demo](https://img.shields.io/badge/🎬-YouTube%20Demo-red.svg)](https://youtu.be/6iLgN_1e4DU)
+  [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](CCL%20Mini%20Project/)
 
   <br>
 
