@@ -29,6 +29,10 @@
     <meta name="language" content="English">
     <meta name="theme-color" content="#2563eb">
 
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/icon-192.png">
+
     <link rel="canonical" href="https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/CCL/">
 
     <!-- Open Graph / Facebook -->
@@ -1379,6 +1383,10 @@
         <!-- Hero Section -->
         <div class="hero" id="home">
             <div class="top-controls">
+                <button class="control-btn" id="pwa-install-btn" title="Install App" aria-label="Install App"
+                    style="display: none;">
+                    <i class="fas fa-download"></i>
+                </button>
                 <button class="control-btn" id="share-btn" title="Share Portfolio" aria-label="Share Portfolio">
                     <i class="fas fa-share-nodes"></i>
                 </button>

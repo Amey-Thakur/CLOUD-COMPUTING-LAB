@@ -217,6 +217,54 @@ if (shareBtn) {
     });
 }
 
+// =========================================
+//   SERVICE WORKER REGISTRATION
+// =========================================
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+            .then((registration) => {
+                console.log('✅ Service Worker registered:', registration.scope);
+            })
+            .catch((error) => {
+                console.log('❌ Service Worker registration failed:', error);
+            });
+    });
+}
+
+// =========================================
+//   PWA INSTALL PROMPT
+// =========================================
+let deferredPrompt;
+const pwaInstallBtn = document.getElementById('pwa-install-btn');
+
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    if (pwaInstallBtn) {
+        pwaInstallBtn.style.display = 'flex';
+    }
+});
+
+if (pwaInstallBtn) {
+    pwaInstallBtn.addEventListener('click', async () => {
+        if (deferredPrompt) {
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            console.log(`PWA Install: ${outcome}`);
+            deferredPrompt = null;
+            pwaInstallBtn.style.display = 'none';
+        }
+    });
+}
+
+window.addEventListener('appinstalled', () => {
+    console.log('✅ PWA installed successfully');
+    if (pwaInstallBtn) {
+        pwaInstallBtn.style.display = 'none';
+    }
+});
+
 window.addEventListener('scroll', reveal);
 reveal(); // Trigger once on load
 
