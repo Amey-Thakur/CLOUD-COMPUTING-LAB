@@ -18,7 +18,7 @@
 
   ---
 
-  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Assignments](#assignments) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#cloud-computing-laboratory-experiments) &nbsp;·&nbsp; [Mini Project](#cloud-computing-mini-project) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Assignments](#assignments) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#cloud-computing-laboratory-experiments) &nbsp;·&nbsp; [Mini-Project](#cloud-computing-mini-project) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -156,9 +156,9 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 ---
 
 <!-- =========================================================================================
-                                     MINI PROJECT SECTION
+                                     Mini-Project SECTION
      ========================================================================================= -->
-## Cloud Computing Mini Project
+## Cloud Computing Mini-Project
 
 <div align="center">
 
@@ -166,9 +166,9 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
   **An AI-powered conversational chatbot for pizza ordering built using AWS Lex, Lambda, and other serverless services.**
 
-  [![Presentation](https://img.shields.io/badge/📊-Presentation-orange.svg)](CCL%20Mini%20Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)
+  [![Presentation](https://img.shields.io/badge/📊-Presentation-orange.svg)](CCL%20Mini-Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)
   [![YouTube Demo](https://img.shields.io/badge/🎬-YouTube%20Demo-red.svg)](https://youtu.be/6iLgN_1e4DU)
-  [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](CCL%20Mini%20Project/)
+  [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](CCL%20Mini-Project/)
 
   <br>
 
@@ -182,7 +182,7 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
   <!-- Authors Table -->
   ### Authors
-| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="CCL%20Mini%20Project/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="CCL%20Mini-Project/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
 | :---: | :---: |
 </div>
 
@@ -192,13 +192,13 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
 ### Project Overview
 
-A Pizza Ordering Chatbot developed as a mini project for the Cloud Computing Lab (CCL). The application enables users to order pizza through a conversational interface powered by **Amazon Lex**. It leverages **AWS Lambda** for backend logic and **Amazon CloudWatch** for monitoring. This project showcases the practical application of serverless computing and natural language processing to build an interactive and intelligent ordering system.
+A Pizza Ordering Chatbot developed as a Mini-Project for the Cloud Computing Lab (CCL). The application enables users to order pizza through a conversational interface powered by **Amazon Lex**. It leverages **AWS Lambda** for backend logic and **Amazon CloudWatch** for monitoring. This project showcases the practical application of serverless computing and natural language processing to build an interactive and intelligent ordering system.
 
 > [!NOTE]
 > **Research Impact & Certification:** This project was published as an academic research paper in **International Journal for Research in Applied Science and Engineering Technology (IJRASET)** (Volume 10, Issue III) and is also available as a preprint on **viXra**. The project received an official **Publication Certificate** for its research contribution to AI and Soft Computing.
 > - [Preprint @viXra](https://vixra.org/pdf/2203.0172v1.pdf)
 > - [Published Paper @IJRASET](https://doi.org/10.22214/ijraset.2022.40861)
-> - [Publication Certificate](CCL%20Mini%20Project/Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex/IJRASET40861%20-%20Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex.pdf)
+> - [Publication Certificate](CCL%20Mini-Project/Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex/IJRASET40861%20-%20Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex.pdf)
 
   <!-- Resources Table -->
   ### Resources
@@ -206,12 +206,12 @@ A Pizza Ordering Chatbot developed as a mini project for the Cloud Computing Lab
 | # | Resource | Description | Marks |
 |:-:|:---|:---|:---:|
 | 1 | [**Presentation**](http://dx.doi.org/10.13140/RG.2.2.19606.01607) | Research paper presentation and visuals | 5/5 |
-| 2 | [**Project Report**](CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf) | Complete project documentation | 5/5 |
+| 2 | [**Project Report**](CCL%20Mini-Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf) | Complete project documentation | 5/5 |
 | 3 | [**Project Demo**](http://dx.doi.org/10.13140/RG.2.2.14153.42088) | Live demonstration of the chatbot | — |
 | 4 | [**YouTube Video**](https://youtu.be/FHbXSo95S7A) | Project overview and explanation | — |
 | 5 | [**Demonstration**](https://youtu.be/6iLgN_1e4DU) | Live chatbot demonstration | — |
 | 6 | [**Published Paper**](https://doi.org/10.22214/ijraset.2022.40861) | IJRASET Publication | — |
-| 7 | [**Publication Certificate**](CCL%20Mini%20Project/Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex/IJRASET40861%20-%20Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex.pdf) | Official Certificate of Publication | — |
+| 7 | [**Publication Certificate**](CCL%20Mini-Project/Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex/IJRASET40861%20-%20Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex.pdf) | Official Certificate of Publication | — |
 
 ---
 
@@ -288,7 +288,7 @@ This repository represents a comprehensive collection of study materials, refere
 
 ### Acknowledgments
 
-Grateful acknowledgment to [**Mega Satish**](https://github.com/msatmod) for her exceptional collaboration on the Cloud Computing Mini Project - "Pizza Ordering Chatbot Using Amazon Lex". Her constant support, patience, and clarity throughout this journey made a real difference. Learning alongside her was transformative, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
+Grateful acknowledgment to [**Mega Satish**](https://github.com/msatmod) for her exceptional collaboration on the Cloud Computing Mini-Project - "Pizza Ordering Chatbot Using Amazon Lex". Her constant support, patience, and clarity throughout this journey made a real difference. Learning alongside her was transformative, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
 
 Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Cloud Computing. Their expertise and support helped develop a strong understanding of cloud technologies and AWS services.
 
@@ -304,7 +304,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
   <!-- Footer Navigation -->
   [↑ Back to Top](#cloud-computing-lab)
 
-  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Assignments](#assignments) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#cloud-computing-laboratory-experiments) &nbsp;·&nbsp; [Mini Project](#cloud-computing-mini-project) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Assignments](#assignments) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#cloud-computing-laboratory-experiments) &nbsp;·&nbsp; [Mini-Project](#cloud-computing-mini-project) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
