@@ -94,3 +94,114 @@ window.addEventListener('load', () => {
         }
     }, 1500); // 1.5s matches 1s delay + 0.5s animation
 });
+
+// =========================================
+//   COMMAND PALETTE LOGIC ⌘
+// =========================================
+const cmdOverlay = document.getElementById('cmd-overlay');
+const cmdInput = document.getElementById('cmd-input');
+const cmdResults = document.getElementById('cmd-results');
+const kbdHint = document.getElementById('kbd-hint');
+
+// Search Data
+const searchItems = [
+    { title: 'Home / Hero Section', url: '#home', icon: 'fas fa-home', type: 'Section' },
+    { title: 'Pizza Ordering Chatbot (Mini Project)', url: '#mini-project', icon: 'fas fa-robot', type: 'Project' },
+    { title: 'CCL Repository', url: 'https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB', icon: 'fab fa-github', type: 'Link' },
+    { title: 'Amey Thakur Profile', url: 'https://github.com/Amey-Thakur', icon: 'fas fa-user-graduate', type: 'Link' },
+    { title: 'Mega Satish Profile', url: 'https://github.com/msatmod', icon: 'fas fa-user-graduate', type: 'Link' },
+    { title: 'Toggle Theme', action: 'toggleTheme', icon: 'fas fa-adjust', type: 'Action' },
+];
+
+// Open/Close Handlers
+document.addEventListener('keydown', (e) => {
+    // Ctrl+K to Open
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        openCmd();
+    }
+    // Esc to Close
+    if (e.key === 'Escape') {
+        closeCmd();
+    }
+});
+
+// Click outside to close
+if (cmdOverlay) {
+    cmdOverlay.addEventListener('click', (e) => {
+        if (e.target === cmdOverlay) {
+            closeCmd();
+        }
+    });
+
+    // Filter Logic
+    cmdInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase();
+        const filtered = searchItems.filter(item =>
+            item.title.toLowerCase().includes(query) ||
+            item.type.toLowerCase().includes(query)
+        );
+        renderResults(filtered);
+    });
+}
+
+function openCmd() {
+    if (!cmdOverlay) return;
+    cmdOverlay.classList.add('active');
+    cmdInput.value = '';
+    renderResults(searchItems);
+    setTimeout(() => cmdInput.focus(), 100);
+}
+
+function closeCmd() {
+    if (!cmdOverlay) return;
+    cmdOverlay.classList.remove('active');
+}
+
+function renderResults(items) {
+    if (!cmdResults) return;
+    cmdResults.innerHTML = '';
+
+    if (items.length === 0) {
+        cmdResults.innerHTML = '<div class="cmd-item" style="cursor:default; color:var(--text-secondary);">No results found</div>';
+        return;
+    }
+
+    items.forEach(item => {
+        const el = document.createElement('div');
+        el.className = 'cmd-item';
+        el.setAttribute('role', 'button');
+
+        el.addEventListener('click', () => {
+            if (item.action === 'toggleTheme') {
+                const toggleBtn = document.getElementById('theme-toggle');
+                if (toggleBtn) toggleBtn.click();
+            } else if (item.url.startsWith('http')) {
+                window.open(item.url, '_blank');
+            } else {
+                window.location.href = item.url;
+            }
+            closeCmd();
+        });
+
+        // Icon
+        const iconDiv = document.createElement('div');
+        iconDiv.className = 'cmd-item-icon';
+        iconDiv.innerHTML = `<i class="${item.icon}"></i>`;
+
+        // Text
+        const textDiv = document.createElement('div');
+        textDiv.className = 'cmd-item-text';
+        textDiv.textContent = item.title;
+
+        // Type Badge
+        const typeDiv = document.createElement('div');
+        typeDiv.className = 'cmd-item-type';
+        typeDiv.textContent = item.type;
+
+        el.appendChild(iconDiv);
+        el.appendChild(textDiv);
+        el.appendChild(typeDiv);
+        cmdResults.appendChild(el);
+    });
+}
