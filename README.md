@@ -203,15 +203,15 @@ A Pizza Ordering Chatbot developed as a mini project for the Cloud Computing Lab
   <!-- Resources Table -->
   ### Resources
 
-| # | Resource | Description | Marks | Link |
-|:-:|:---|:---|:---:|:---|
-| 1 | Presentation | Research paper presentation and visuals | 5/5 | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.19606.01607) |
-| 2 | Project Report | Complete project documentation | 5/5 | [View](CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf) |
-| 3 | Project Demo | Live demonstration of the chatbot | — | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.14153.42088) |
-| 4 | YouTube Video | Project overview and explanation | — | [Watch](https://youtu.be/FHbXSo95S7A) |
-| 5 | Demonstration | Live chatbot demonstration | — | [Watch](https://youtu.be/6iLgN_1e4DU) |
-| 6 | Published Paper | IJRASET Publication | — | [DOI](https://doi.org/10.22214/ijraset.2022.40861) |
-| 7 | Publication Certificate | Official Certificate of Publication | — | [View](CCL%20Mini%20Project/Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex/IJRASET40861%20-%20Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex.pdf) |
+| # | Resource | Description | Marks |
+|:-:|:---|:---|:---:|
+| 1 | [**Presentation**](http://dx.doi.org/10.13140/RG.2.2.19606.01607) | Research paper presentation and visuals | 5/5 |
+| 2 | [**Project Report**](CCL%20Mini%20Project/CCL_MINI_PROJECT_REPORT_BE_COMPS_B-50%2C51%2C%2058.pdf) | Complete project documentation | 5/5 |
+| 3 | [**Project Demo**](http://dx.doi.org/10.13140/RG.2.2.14153.42088) | Live demonstration of the chatbot | — |
+| 4 | [**YouTube Video**](https://youtu.be/FHbXSo95S7A) | Project overview and explanation | — |
+| 5 | [**Demonstration**](https://youtu.be/6iLgN_1e4DU) | Live chatbot demonstration | — |
+| 6 | [**Published Paper**](https://doi.org/10.22214/ijraset.2022.40861) | IJRASET Publication | — |
+| 7 | [**Publication Certificate**](CCL%20Mini%20Project/Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex/IJRASET40861%20-%20Pizza%20Ordering%20Chatbot%20Using%20Amazon%20Lex.pdf) | Official Certificate of Publication | — |
 
 ---
 
