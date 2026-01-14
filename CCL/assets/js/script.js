@@ -12,19 +12,19 @@
 //   CONSOLE EASTER EGG 🥚
 // =========================================
 console.log(
-    "%c🖱️ Cloud Computing Lab Portfolio",
+    "%c🚀 Cloud Computing Lab Portfolio",
     "font-size: 28px; font-weight: bold; color: #2563eb; text-shadow: 2px 2px 0 #0f172a;"
 );
 console.log(
-    "%c☁️ Exploring the clouds with AWS?",
+    "%c☁️ Exploring the Serverless Clouds?",
     "font-size: 14px; color: #64748b;"
 );
 console.log(
-    "%c🔗 https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB",
+    "%c🌐 https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB",
     "font-size: 12px; color: #2563eb;"
 );
 console.log(
-    "%c⚠️ This portfolio is protected. Please respect the author's work!",
+    "%c🛡️ This portfolio is protected. Please respect the author's work!",
     "font-size: 12px; color: #f59e0b; font-weight: bold;"
 );
 

@@ -52,8 +52,9 @@
         content="https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png">
 
     <!-- Favicon -->
-    <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/design_assets/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/design_assets/icon-512.png">
+    <link rel="apple-touch-icon" href="assets/design_assets/icon-192.png">
     <!-- Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap"
@@ -1057,15 +1058,26 @@
     <div id="skeleton-loader"
         style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-color); z-index: 10000; display: flex; flex-direction: column; align-items: center; justify-content: center; animation: fadeOutLoader 0.5s ease 1s forwards;">
         <div
-            style="font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 900; background: linear-gradient(120deg, #2563eb, #8b5cf6); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 20px;">
-            CCL
+            style="width: 60px; height: 60px; border: 4px solid rgba(37, 99, 235, 0.2); border-top-color: #2563eb; border-radius: 50%; animation: spin 1s linear infinite;">
         </div>
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
-            <span class="visually-hidden">Loading...</span>
-        </div>
-        <div style="margin-top: 20px; color: var(--text-secondary); font-size: 0.9rem; letter-spacing: 2px;">
-            CLOUD COMPUTING LAB
-        </div>
+        <p
+            style="margin-top: 20px; color: var(--text-secondary); font-family: 'Poppins', sans-serif; font-size: 0.9rem;">
+            Loading CCL Portfolio...</p>
+        <style>
+            @keyframes spin {
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+            @keyframes fadeOutLoader {
+                to {
+                    opacity: 0;
+                    visibility: hidden;
+                    pointer-events: none;
+                }
+            }
+        </style>
     </div>
 
     <div class="main-container">
@@ -1369,8 +1381,8 @@
 
         <!-- Footer -->
         <footer class="footer">
-            <p>2022 - <span id="current-year"></span> &copy; All Rights Reserved | Designed and Developed by <a
-                    href="https://github.com/Amey-Thakur" rel="noopener noreferrer">Amey
+            <p>&copy; 2022 All Rights Reserved | Designed and Developed by <a href="https://github.com/Amey-Thakur"
+                    rel="noopener noreferrer">Amey
                     Thakur</a> & <a href="https://github.com/msatmod" rel="noopener noreferrer">Mega Satish</a></p>
         </footer>
 
@@ -1387,7 +1399,7 @@
              */
 
             // Set Current Year
-            document.getElementById('current-year').textContent = new Date().getFullYear();
+            // document.getElementById('current-year').textContent = new Date().getFullYear();
 
             // Theme Toggle Logic
             const toggleBtn = document.getElementById('theme-toggle');

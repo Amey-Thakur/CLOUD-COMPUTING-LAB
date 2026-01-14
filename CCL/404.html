@@ -25,6 +25,11 @@
     <meta name="robots" content="noindex, follow">
     <meta name="theme-color" content="#2563eb">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/design_assets/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/design_assets/icon-512.png">
+    <link rel="apple-touch-icon" href="assets/design_assets/icon-192.png">
+
     <!-- Security Hardening -->
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
@@ -219,7 +224,7 @@
         </a>
 
         <div class="footer-simple">
-            <p>&copy; <span id="year"></span> Cloud Computing Lab</p>
+            <p>&copy; 2022 Cloud Computing Lab</p>
             <p>Designed & Developed by <a href="https://github.com/Amey-Thakur" target="_blank" class="highlight"
                     rel="noopener noreferrer">Amey Thakur</a> & <a href="https://github.com/msatmod" target="_blank"
                     class="highlight" rel="noopener noreferrer">Mega Satish</a></p>
@@ -238,8 +243,8 @@
         const savedTheme = localStorage.getItem('theme') || 'light';
         htmlElement.setAttribute('data-theme', savedTheme);
 
-        // Dynamic Year
-        document.getElementById('year').textContent = `2022 - ${new Date().getFullYear()}`;
+        // Dynamic Year - REMOVED per user request
+        // document.getElementById('year').textContent = `2022 - ${new Date().getFullYear()}`;
     </script>
 </body>
 
