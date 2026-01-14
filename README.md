@@ -308,8 +308,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
 
   <br>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/AWS_Simple_Icons_AWS_Cloud.svg" width="20" height="20" alt="AWS"/> **[AWS-CLF-C01](https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01)**
+  <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="20" height="20" alt="AWS" align="middle"/>&nbsp;**[AWS-CLF-C01](https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01)**
 
   ---
 
