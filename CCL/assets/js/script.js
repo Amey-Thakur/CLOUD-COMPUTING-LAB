@@ -116,7 +116,6 @@ const searchItems = [
 // =========================================
 //   STATS COUNTER ANIMATION
 // =========================================
-const stats = document.querySelectorAll('.stat-number');
 let hasAnimated = false;
 
 function animateStats() {
@@ -125,6 +124,9 @@ function animateStats() {
     const statsContainer = document.querySelector('.stats-container');
     if (!statsContainer) return;
 
+    const stats = document.querySelectorAll('.stat-number');
+    if (!stats.length) return;
+
     const sectionTop = statsContainer.getBoundingClientRect().top;
     const windowHeight = window.innerHeight;
 
@@ -132,7 +134,7 @@ function animateStats() {
         stats.forEach(stat => {
             const target = +stat.getAttribute('data-target');
             const suffix = stat.getAttribute('data-suffix') || '';
-            const increment = target / 50; // Speed of animation
+            const increment = Math.max(target / 50, 1); // Ensure minimum increment
 
             let current = 0;
             const updateCount = () => {
@@ -151,8 +153,10 @@ function animateStats() {
     }
 }
 
+// Run on scroll and on load
 window.addEventListener('scroll', animateStats);
-animateStats(); // Trigger once on load
+window.addEventListener('DOMContentLoaded', animateStats);
+animateStats();
 
 // =========================================
 //   SCROLL REVEAL ANIMATIONS
