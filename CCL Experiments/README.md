@@ -24,12 +24,12 @@
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-CCL%20Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/CCL/index.html)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-CCL%20Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/index.html)
 
 </div>
 
 > [!NOTE]
-> **CCL Portfolio**: This repository features a centralized portfolio dashboard designed to showcase all cloud computing experiments and student portfolios. Access the full interactive experience through the [CCL Portfolio Index](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/CCL/index.html).
+> **CCL Portfolio**: This repository features a centralized portfolio dashboard designed to showcase all cloud computing experiments and student portfolios. Access the full interactive experience through the [CCL Portfolio Index](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/index.html).
 
 > [!TIP]
 > **Cloud Services & AWS**: When working with AWS services, always follow the principle of least privilege for IAM permissions. Ensure you clean up resources after experiments to avoid unexpected charges. Use the AWS Free Tier effectively for learning purposes.
@@ -265,7 +265,7 @@ Understanding implementation and applications of Fog Computing.
 
   <br>
 
-  🏠 **[Back to Main Repository](../)** &nbsp;·&nbsp; <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="30" height="30" alt="AWS" align="middle"/>&nbsp;<b><a href="https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01">AWS-CLF-C01</a></b>
+  🏠 **[Back to Portfolio](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/)** &nbsp;·&nbsp; <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="30" height="30" alt="AWS" align="middle"/>&nbsp;<b><a href="https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01">AWS-CLF-C01</a></b>
 
 </div>
 

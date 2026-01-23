@@ -308,7 +308,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   <br>
 
-  🔬 **[Cloud Computing Lab](CCL%20Experiments/)** &nbsp;·&nbsp; <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="30" height="30" alt="AWS" align="middle"/>&nbsp;<b><a href="https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01">AWS-CLF-C01</a></b>
+  🔬 **[Cloud Computing Lab](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/)** &nbsp;·&nbsp; <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="30" height="30" alt="AWS" align="middle"/>&nbsp;<b><a href="https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01">AWS-CLF-C01</a></b>
 
   ---
 
