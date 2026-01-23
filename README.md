@@ -115,12 +115,12 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
   [![Platform](https://img.shields.io/badge/Platform-AWS-orange.svg)](CCL%20Experiments/)
   [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](CCL%20Experiments/)
 
-  [![Live Demo CCL Portfolio](https://img.shields.io/badge/Live_Demo-CCL_Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/CCL/)
+  [![Live Demo CCL Portfolio](https://img.shields.io/badge/Live_Demo-CCL_Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/)
 
 </div>
 
 > [!TIP]
-> **Live Implementation**: For a comprehensive showcase, visit the [CCL Portfolio Dashboard](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/CCL/). For a quick structural and responsive evaluation, use the 🚀 (Rocket) links in the 'Live Demo' column to view the implementations directly in your browser. For the complete source code and detailed documentation, visit the [CCL Experiments](CCL%20Experiments/) directory.
+> **Live Implementation**: For a comprehensive showcase, visit the [CCL Portfolio Dashboard](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/). For a quick structural and responsive evaluation, use the 🚀 (Rocket) links in the 'Live Demo' column to view the implementations directly in your browser. For the complete source code and detailed documentation, visit the [CCL Experiments](CCL%20Experiments/) directory.
 
 | # | Experiment | Date | Marks | Video Demo | Report | Live Demo |
 |:-:|:---|:---:|:---:|:---:|:---:|:---:|
@@ -129,7 +129,7 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 | 2B | Implement Virtualization using VirtualBox | January 24, 2022 | 10/10 | — | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-2B.pdf) | — |
 | 3 | Demonstrate and implement IaaS service using AWS EC2 | January 31, 2022 | 10/10 | [🎬](https://youtu.be/y-oACtu8djc) | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-3.pdf) | — |
 | 4 | Demonstrate and implement Storage as a service using AWS S3 | February 14, 2022 | 10/10 | [🎬](https://youtu.be/CnM07Vg7pW8) | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-4.pdf) | — |
-| 5 | Demonstrate and implement PaaS - Deploy static website using AWS S3 | February 21, 2022 | 10/10 | [🎬](https://youtu.be/CnM07Vg7pW8) | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-5.pdf) | [🚀](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/CCL/) |
+| 5 | Demonstrate and implement PaaS - Deploy static website using AWS S3 | February 21, 2022 | 10/10 | [🎬](https://youtu.be/CnM07Vg7pW8) | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-5.pdf) | [🚀](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/) |
 | 6 | Deploy WordPress app using Lightsail service in AWS (SaaS) | February 23, 2022 | 10/10 | [🎬](https://youtu.be/Ey8Tm4cC6yo) | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-6.pdf) | — |
 | 7 | Understand Security of Web Server and demonstration of IAM using AWS | February 23, 2022 | 10/10 | [🎬](https://youtu.be/dnmuv0PC7W8) | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-7.pdf) | — |
 | 8 | Understanding implementation and applications of Fog Computing | March 10, 2022 | 10/10 | — | [View](CCL%20Experiments/AMEY_B-50_CCL_EXPERIMENT-8.pdf) | — |
