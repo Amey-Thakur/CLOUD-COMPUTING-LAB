@@ -641,6 +641,52 @@
             transform: translateX(-50%) translateY(0);
         }
 
+        /* 
+         * =========================================
+         *   SCROLL HINT HOVER EFFECT
+         * =========================================
+         */
+        .scroll-link {
+            color: var(--text-secondary) !important;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .scroll-link:hover {
+            color: var(--accent-color) !important;
+            letter-spacing: 0.5px;
+        }
+
+        .scroll-link .fa-chevron-down {
+            font-size: 0.8rem;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateY(0);
+            }
+
+            40% {
+                transform: translateY(-6px);
+            }
+
+            60% {
+                transform: translateY(-3px);
+            }
+        }
+
         /* Animated Gradient Card (WDL Style) with Glassmorphism */
         .mini-project-hero {
             background: linear-gradient(-45deg, rgba(255, 255, 255, 0.4), rgba(240, 244, 255, 0.4), rgba(224, 231, 255, 0.4), rgba(248, 250, 252, 0.4)) !important;
