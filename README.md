@@ -10,9 +10,9 @@
   ### CSL803 · Semester VIII · Computer Engineering
 
   [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-  [![University](https://img.shields.io/badge/University-Mumbai-%23A6192E.svg)](https://mu.ac.in/)
-  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-orange.svg)](https://ternaengg.ac.in/)
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
+  [![University](https://img.shields.io/badge/University-Mumbai-A6192E.svg)](https://mu.ac.in/)
+  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-E8710A.svg)](https://ternaengg.ac.in/)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
 
   **A comprehensive academic resource for Cloud Computing Laboratory (CCL), covering cloud concepts, virtualization, AWS services, deployment strategies, and serverless architectures.**
 
@@ -112,11 +112,11 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
 <div align="center">
 
-  [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-8-yellowgreen.svg)](CCL%20Experiments/)
-  [![Platform](https://img.shields.io/badge/Platform-AWS-orange.svg)](CCL%20Experiments/)
-  [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](CCL%20Experiments/)
+  [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-8-3949AB.svg)](CCL%20Experiments/)
+  [![Platform](https://img.shields.io/badge/Platform-AWS-00838F.svg)](CCL%20Experiments/)
+  [![Status](https://img.shields.io/badge/Status-Complete-2EA043.svg)](CCL%20Experiments/)
 
-  [![Live Demo CCL Portfolio](https://img.shields.io/badge/Live_Demo-CCL_Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/)
+  [![Live Demo CCL Portfolio](https://img.shields.io/badge/Live_Demo-CCL_Portfolio-00B8D9?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/)
 
 </div>
 
@@ -169,7 +169,7 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
   [![Presentation](https://img.shields.io/badge/📊-Presentation-orange.svg)](CCL%20Mini-Project/CCL_MINI_PROJECT_PRESENTATION_BE_COMPS_B-50%2C51%2C%2058.pdf)
   [![YouTube Demo](https://img.shields.io/badge/🎬-YouTube%20Demo-red.svg)](https://youtu.be/6iLgN_1e4DU)
-  [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](CCL%20Mini-Project/)
+  [![Status](https://img.shields.io/badge/Status-Complete-2EA043.svg)](CCL%20Mini-Project/)
 
   <br>
 
@@ -183,7 +183,7 @@ The laboratory component (CSL803) focuses on hands-on implementation of cloud se
 
   <!-- Authors Table -->
   ### Authors
-| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="CCL%20Mini-Project/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="CCL%20Mini-Project/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) |
 | :---: | :---: |
 </div>
 
@@ -320,3 +320,4 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
   *Semester-wise curriculum, laboratories, projects, and academic notes.*
   
 </div>
+

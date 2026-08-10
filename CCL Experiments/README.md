@@ -7,10 +7,10 @@
 
   ### CSL803 · Semester VIII · Computer Engineering
 
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
-  [![Documents](https://img.shields.io/badge/Documents-9-yellowgreen.svg)](#experiment-1-nist-model-of-cloud-computing)
-  [![Platform](https://img.shields.io/badge/Platform-AWS-orange.svg)](./)
-  [![Type](https://img.shields.io/badge/Type-PDF-brightgreen.svg)](./)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
+  [![Documents](https://img.shields.io/badge/Documents-9-3949AB.svg)](#experiment-1-nist-model-of-cloud-computing)
+  [![Platform](https://img.shields.io/badge/Platform-AWS-00838F.svg)](./)
+  [![Type](https://img.shields.io/badge/Type-PDF-546E7A.svg)](./)
 
   **A comprehensive collection of laboratory experiments for Cloud Computing, covering cloud service models, virtualization, AWS services, serverless computing, and fog computing concepts.**
 
@@ -24,7 +24,7 @@
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-CCL%20Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/index.html)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-CCL%20Portfolio-00B8D9?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/index.html)
 
 </div>
 
@@ -282,3 +282,4 @@ Understanding implementation and applications of Fog Computing.
 </div>
 
  <!-- CCL -->
+
