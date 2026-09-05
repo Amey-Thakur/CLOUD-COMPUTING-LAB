@@ -74,7 +74,17 @@
         "S3",
         "IAM",
         "Lambda",
-        "Portfolio"
+        "Portfolio",
+        "Cloud Fundamentals",
+        "AWS Services",
+        "Web Deployment",
+        "Serverless Computing",
+        "Security",
+        "Topics Covered",
+        "Live Implementation",
+        "AWS Lambda",
+        "Amazon CloudWatch",
+        "Publication Certificate"
     ],
     "url": "https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/"
 }
