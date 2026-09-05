@@ -58,11 +58,6 @@ As a computer engineer, understanding cloud computing is crucial for developing 
 > [!NOTE]
 > All materials in this repository were created, compiled, and organized by me throughout my undergraduate program (2018-2022) as part of my coursework, laboratory assignments, and project implementations.
 
-> [!IMPORTANT]
-> **Companion Guide — [AWS Cloud Computing Resources](AWS%20Cloud%20Computing%20Resources.pdf)**
->
-> A sixteen-page A4 guide that indexes this repository alongside [AWS Certified Cloud Practitioner (CLF-C01)](https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01): the certification study material, the laboratory experiments and the recorded video lessons, with every file linked and every link tested before release.
-
 ---
 
 <!-- =========================================================================================
@@ -71,6 +66,11 @@ As a computer engineer, understanding cloud computing is crucial for developing 
 ## Repository Contents
 
 ### Reference Books
+
+> [!IMPORTANT]
+> **Companion Guide — [AWS Cloud Computing Resources](AWS%20Cloud%20Computing%20Resources.pdf)**
+>
+> A sixteen-page A4 guide that indexes this repository alongside [AWS Certified Cloud Practitioner (CLF-C01)](https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01): the certification study material, the laboratory experiments and the recorded video lessons, with every file linked and every link tested before release.
 
 This collection includes **comprehensive reference materials** covering all major topics:
 
