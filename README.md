@@ -68,9 +68,9 @@ As a computer engineer, understanding cloud computing is crucial for developing 
 ### Reference Books
 
 > [!IMPORTANT]
-> **Companion Guide — [AWS Cloud Computing Resources](AWS%20Cloud%20Computing%20Resources.pdf)**
+> **Companion Guide: [AWS Cloud Computing Resources](AWS%20Cloud%20Computing%20Resources.pdf)**
 >
-> A sixteen-page A4 guide that indexes this repository alongside [AWS Certified Cloud Practitioner (CLF-C01)](https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01): the certification study material, the laboratory experiments and the recorded video lessons, with every file linked and every link tested before release.
+> The whole cloud path in one document: what to study for the AWS Cloud Practitioner exam, the laboratory experiments in the order they were done, and the video lessons that walk through them. It covers this repository and [AWS Certified Cloud Practitioner (CLF-C01)](https://github.com/Amey-Thakur/AWS-CERTIFIED-CLOUD-PRACTITIONER-CLF-C01) together, and every entry opens the file it names, so you can start wherever you need to.
 
 This collection includes **comprehensive reference materials** covering all major topics:
 
