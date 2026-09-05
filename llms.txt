@@ -1,0 +1,40 @@
+# Cloud Computing Lab
+
+> CSL803: Cloud Computing Lab [CCL] | BE Semester VIII | Computer
+> Engineering
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Co-author: Mega Satish, ORCID 0000-0002-1844-9557
+Institution: Terna Engineering College, University of Mumbai
+Programme: B.E. Computer Engineering, Fourth Year, Semester VIII
+Course code: CSL803
+Licence: CC BY 4.0, attribution required
+Repository created: 10 January 2022
+Work dated: 9 August 2022
+
+## What is in this repository
+
+- Assignments, 2 files
+- CCL, 22 files
+- CCL Experiments, 28 files
+- CCL Mini-Project, 27 files
+- Quizzes, 2 files
+- Reference Books, 16 files
+- Submission Report, 3 files
+- BE Time Table.pdf
+- MU SEM VIII SYLLABUS.pdf
+
+## Subject terms
+
+amazon-lex, amazon-web-services, aws, aws-ec2, cloud-computing,
+cloud-computing-lab, cloud-security, computer-engineering,
+computer-science, engineering, iaas-paas-saas, serverless, textbooks,
+university-of-mumbai, virtualization
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/CLOUD-COMPUTING-LAB
+- Degree index, every subject and project: https://github.com/Amey-Thakur/COMPUTER-ENGINEERING
+- Project page: https://amey-thakur.github.io/CLOUD-COMPUTING-LAB/
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/
